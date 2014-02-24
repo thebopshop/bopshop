@@ -1,0 +1,71 @@
+#contentContainer {
+	margin-top: -2px;
+}
+
+
+.resultsInfo {
+	
+	padding-left: 15px;
+	
+}
+
+.markAll {
+	
+	top: 6px;
+	
+	
+	
+}
+
+.markAllLabel {
+	
+	top: 10px;
+	left: 29px;
+	
+}	
+
+.prevNext {
+	
+	top: 10px;
+	
+	
+}
+
+
+.resultsNumbers {
+	
+	top: 10px;
+}
+	
+
+
+
+.goToPageLabel {
+	
+	top: 10px;
+	
+}
+
+.goToPageTextarea {
+	
+	top: 7px;
+	
+}
+
+.rolloverGoToPage a {
+	
+	top: 7px;
+	
+	
+ 
+}
+
+.resultsList .markLabel {
+	
+	left: 30px;
+	top: 8px;
+}
+#backToTop {
+	
+	margin-top: 10px;
+}

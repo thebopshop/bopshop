@@ -1,0 +1,236 @@
+.catTextfield1 {
+	margin-left: 165px;
+}
+
+.andJump {	
+	margin-left: 95px;
+}
+.rolloverAddRow a {	
+	left:182px;
+}
+
+.rolloverClear a {	
+	left:297px;	
+}
+
+.rolloverSearch a {	
+	left:595px;	
+}
+
+.advertising {
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+.advertisingLabel {
+	position: absolute;
+	top: 12px;
+	left: 60px;
+	font-weight: bold;
+}
+.classifiedAdvertising {
+	position: absolute;
+	top: 35px;
+	left: 45px;
+}
+.classifiedAdvertisingLabel {
+	position: absolute;
+	top: 37px;
+	left: 65px;
+}
+.displayAdvertising {
+	position: absolute;
+	top: 55px;
+	left: 45px;
+}
+.displayAdvertisingLabel {
+	position: absolute;
+	top: 57px;
+	left: 65px;
+}
+
+.editorialCommentary {
+	position: absolute;
+	top: 10px;
+	left: 265px;
+}
+.editorialCommentaryLabel {
+	position: absolute;
+	top: 12px;
+	left: 285px;
+	font-weight: bold;
+}
+.artsEnt {
+	position: absolute;
+	top: 35px;
+	left: 270px;
+}
+.artsEntLabel {
+	position: absolute;
+	top: 37px;
+	left: 290px;
+}
+.featureArticles {
+	position: absolute;
+	top: 55px;
+	left: 270px;
+}
+.featureArticlesLabel {
+	position: absolute;
+	top: 57px;
+	left: 290px;
+}
+.lettersEditor {
+	position: absolute;
+	top: 75px;
+	left: 270px;
+}
+.lettersEditorLabel {
+	position: absolute;
+	top: 77px;
+	left: 290px;
+}
+.obituaries {
+	position: absolute;
+	top: 95px;
+	left: 270px;
+}
+.obituariesLabel {
+	position: absolute;
+	top:97px;
+	left: 290px;
+}
+.poem {
+	position: absolute;
+	top: 115px;
+	left: 270px;
+}
+.poemLabel {
+	position: absolute;
+	top:117px;
+	left: 290px;
+}
+.science {
+	position: absolute;
+	top: 135px;
+	left: 270px;
+}
+.scienceLabel {
+	position: absolute;
+	top:137px;
+	left: 290px;
+}
+
+.miscellaneous {
+	position: absolute;
+	top: 10px;
+	left: 530px;
+}
+.miscellaneousLabel {
+	position: absolute;
+	top: 12px;
+	left: 550px;
+	font-weight: bold;
+}
+.cover {
+	position: absolute;
+	top: 35px;
+	left: 535px;
+}
+.coverLabel {
+	position: absolute;
+	top: 37px;
+	left: 555px;
+}
+.listings {
+	position: absolute;
+	top: 55px;
+	left: 535px;
+}
+.listingsLabel {
+	position: absolute;
+	top: 57px;
+	left: 555px;
+}
+.pubMatter {
+	position: absolute;
+	top: 75px;
+	left: 535px;
+}
+.pubMatterLabel {
+	position: absolute;
+	top: 77px;
+	left: 555px;
+}
+.toc {
+	position: absolute;
+	top: 95px;
+	left: 535px;
+}
+.tocLabel {
+	position: absolute;
+	top: 97px;
+	left: 555px;
+}
+
+.illustrationType {
+	position: absolute;
+	top: 0px;
+	left: 40px;
+}
+.illustrationTypeLabel {
+	position: absolute;
+	top: 2px;
+	left: 60px;
+	font-weight: bold;
+}
+.cartoon {
+	position: absolute;
+	top: 25px;
+	left: 45px;
+}
+.cartoonLabel {
+	position: absolute;
+	top: 27px;
+	left: 65px;
+}
+.chart {
+	position: absolute;
+	top: 45px;
+	left: 45px;
+}
+.chartLabel {
+	position: absolute;
+	top: 47px;
+	left: 65px;
+}
+.drawingPainting {
+	position: absolute;
+	top: 65px;
+	left: 45px;
+}
+.drawingPaintingLabel {
+	position: absolute;
+	top: 67px;
+	left: 65px;
+}
+.map {
+	position: absolute;
+	top: 85px;
+	left: 45px;
+}
+.mapLabel {
+	position: absolute;
+	top: 87px;
+	left: 65px;
+}
+.photograph {
+	position: absolute;
+	top: 105px;
+	left: 45px;
+}
+.photographLabel {
+	position: absolute;
+	top: 107px;
+	left: 65px;
+}

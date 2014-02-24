@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #669B9B;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #D2EDF6;
+}
+
+#citationContainer {
+	width: 700px;
+	height: 620px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border-bottom: 1px solid #000000;
+	
+}
+#citationTop {
+	width: 701px;
+	height: 380px;
+	color: #ffffff;
+	background: #000000 url(../images/citation-background.png);
+	background-repeat: repeat-x;
+	
+}
+
+.citationHeading {
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	position: absolute;
+	top: 20px;
+	left: 5px;
+}
+
+
+#radioButtons {
+	position: relative;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+
+.save {
+	position: absolute;
+	top: 65px;
+	left: 5px;
+}
+
+.mlaRadio {
+	position: absolute;
+	top: 95px;
+	left: 5px;
+}
+.mlaLabel {
+	position: absolute;
+	top: 95px;
+	left: 25px;
+}
+.htmlRadio {
+	position: absolute;
+	top: 115px;
+	left: 5px;
+}
+
+.htmlLabel {
+	position: absolute;
+	top: 115px;
+	left: 25px;
+}
+
+.plainTextRadio {
+	position: absolute;
+	top: 135px;
+	left: 5px;
+}
+
+.plainTextLabel {
+	position: absolute;
+	top: 135px;
+	left: 25px;
+}
+
+.saveCancel {
+	position: absolute;
+	top: 180px;
+	left: 5px;
+}
+
+.export {
+	position: absolute;
+	top: 230px;
+	left: 5px;
+	font-weight: bold;
+}
+.endNote {
+	position: absolute;
+	top: 250px;
+	left: 5px;
+}
+.endNoteLabel {
+	position: absolute;
+	top: 250px;
+	left: 25px;
+}
+.proCite {
+	position: absolute;
+	top: 270px;
+	left: 5px;
+}
+.proCiteLabel {
+	position: absolute;
+	top: 270px;
+	left: 25px;
+}
+.referenceManager {
+	position: absolute;
+	top: 290px;
+	left: 5px;
+}
+.referenceManagerLabel {
+	position: absolute;
+	top: 290px;
+	left: 25px;
+}
+.refWorks {
+	position: absolute;
+	top: 310px;
+	left: 5px;
+}
+.refWorksLabel {
+	position: absolute;
+	top: 310px;
+	left: 25px;
+}
+.exportCancel {
+	position: absolute;
+	top: 350px;
+	left: 5px;
+}
+#noteField {
+	padding: 5px 10px 5px 5px;
+}
+
+#citationList {
+	position: relative;
+	width: 700px;
+	
+}
+#citationList ul {
+	list-style-type: none;
+	display: inline;
+}
+.numberHeading {
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	width: 40px;
+	height: 25px;
+	position: absolute;
+	top: 12px;
+	left: 0px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-top: 7px;
+}
+.titleHeading {
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	width: 540px;
+	height: 25px;
+	position: absolute;
+	top: 12px;
+	left: 45px;
+	font-weight: bold;	
+	padding-top: 7px;
+	padding-left: 5px;
+	
+}
+.categoryHeading {
+	width: 105px;
+	height: 25px;
+	position: absolute;
+	top: 12px;
+	left: 590px;
+	font-weight: bold;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	padding-top: 7px;
+	padding-left: 5px;
+	
+}
+
+
+.resultsList {
+	list-style-type: none;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position: relative;
+	
+}
+
+.citationListNumber {
+	position: absolute;
+	top: 66px;
+	left: 5px;
+}
+
+
+.citationTitle {
+	position: absolute;
+	top: 65px;
+	left: 50px;
+	width: 540px;
+}
+
+.citationTitle a:hover {
+	color:  #00234b;
+}
+.articleType {
+	position: absolute;
+	top: 65px;
+	left: 595px;
+	width: 90px;
+}
+
+.description {
+	position: absolute;
+	top: 95px;
+	left: 50px;
+	width: 540px;
+}
+
+.listLinks {
+	position: absolute;
+	top: 140px;
+	left: 50px;
+	width: 100px;
+}
+.listLinks a:hover {
+	color:  #00234b;
+}

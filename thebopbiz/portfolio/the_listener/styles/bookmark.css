@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #669B9B;
+	font-weight: bold;
+}
+
+a:hover {
+	color:  #00234b;
+}
+
+/*bookmark area*/
+#bookmarkBox {
+	width: 650px;
+	margin-right: 10px;
+	background-image:url(../images/heading-bg.png);
+	background-repeat: repeat-x;
+	background-color: #FFF;
+	height: 250px;
+	border: 1px solid #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: normal;
+	color: #FFF;
+	text-indent: 10px;
+	margin-bottom: 20px;
+}
+
+#bookmarkHeading {
+	height: 32px;
+	width: 100%;
+	background: #000000;
+	padding-top: 10px;
+	font-size: 18px;
+	
+}
+
+
+.bookmarkLabelsContainer {
+	float: left;
+	height: auto;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	margin-top: 10px;
+	padding-right: 10px;
+	line-height: 34px;
+}

@@ -1,0 +1,824 @@
+@charset "utf-8";
+/* CSS Document */
+
+#advSearchTop {
+	background: #000000 url(../images/AdvancedSearchBG.png) no-repeat;
+	width: 1000px;
+	height: auto;
+	/*min-height: 240px;*/
+	overflow: visible;
+	margin-top: 33px;
+	padding-bottom: 10px;
+	*margin-top: -1px;
+}
+
+.headingBar {
+	width: 250px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:16px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: left;
+}
+.breadcrumb {
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:12px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: right;
+	padding-right: 10px;
+}
+.breadcrumb a {
+	color: #FE811F;
+}
+.breadcrumb a:hover {
+	color: #AD2217;
+}
+
+
+#advSearchCategories  {
+	position: relative;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	margin-top: 10px;
+	*margin-top: 27px;
+}
+
+.fuzzySearch {
+	position: absolute;
+	top: 20px;
+	right: 130px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.fuzzySearch a {
+	color: #FE811F;
+}
+
+.fuzzySearch a:hover {
+	color: #AD2217;
+}
+
+
+
+.helpFuzzy  {
+	position: absolute;
+	top: -5px;
+	left:95px;
+}
+
+.helpFuzzy a {
+	position: absolute;
+	top: -5px;
+	left:95px;
+}
+
+
+
+.catJumpMenuTop {
+	list-style-type: none;
+	display: inline;
+	
+	
+}
+	
+.catJumpMenuTop li {
+	padding-top: 40px;
+}
+
+.catTextfield1 {
+	height: 22px;
+	width: 270px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 185px;
+		
+}
+
+.catLabel1 {
+	color: #ffffff;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	padding-left: 8px;
+	padding-right: 5px;
+}
+
+.categoryJump1 {
+	height: 22px;
+	width: 130px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	margin-right: 5px;
+	
+	
+}
+
+.fuzzyJump1 {
+	height: 22px;
+	width: 72px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	
+	
+}
+
+
+.catJumpMenuLower {
+	list-style-type: none;
+	display: inline;
+	
+	
+}
+	
+.catJumpMenuLower li {
+	padding-top: 5px;
+}
+
+
+.andJump {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 115px;
+	margin-right: 6px;
+	width: 60px;
+	
+	
+}
+
+
+.catTextfield2 {
+	height: 22px;
+	width: 270px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.catLabel2{
+	color: #ffffff;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	padding-left: 8px;
+	padding-right: 5px;	
+}
+
+.categoryJump2 {
+	height: 22px;
+	width: 130px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	margin-right: 5px;
+	
+	
+}
+
+.fuzzyJump2 {
+	height: 22px;
+	width: 72px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	
+	
+}
+
+#searchButtons {
+	height: 24px;
+	width: 100%;
+	margin-top: 10px;
+	position: relative;
+}
+
+
+
+.rolloverAddRow a {
+background:url("../images/buttons/AddARowButton.png") no-repeat scroll 0 0 transparent;
+border-bottom-color:#666666;
+display:block;
+font:bold 13px sans-serif;
+height:24px;
+text-decoration:none;
+width:100px;
+position:absolute;
+top:0;
+left:185px;
+}
+.rolloverAddRow a:hover {
+	background-position: 0 -24px;
+}
+.rolloverAddRow a:active {
+	background-position: 0 -24px;
+}
+
+.rolloverClear a {
+	display:block;
+	width: 100px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/buttons/ClearButton.png") 0 0 no-repeat;
+	text-decoration: none;
+	border-bottom-color: #666;
+	position:absolute;
+top:0;
+left:300px;
+	
+}
+.rolloverClear a:hover {
+	background-position: 0 -24px;
+}
+.rolloverClear a:active {
+	background-position: 0 -24px;
+}
+
+.rolloverSearch a {
+	display:block;
+	width: 100px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/buttons/SearchButtonRed.png") 0 0 no-repeat;
+	text-decoration: none;
+	border-bottom-color: #666;
+	position:absolute;
+top:0;
+left:597px
+	
+}
+.rolloverSearch a:hover {
+	background-position: 0 -24px;
+}
+.rolloverSearch a:active {
+	background-position: 0 -24px;
+}
+
+
+.searchLimitersHeading {
+	width: 100%;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #000000;
+	font-size:16px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-indent: 10px;
+	border-bottom: 1px solid #000000;
+	position: relative;
+}
+
+.helpLimiting {
+	position: absolute;
+	top: 7px;
+	left: 180px;
+}
+
+#searchLimitersJumpMenus {
+	position: relative;
+	height: 80px;
+	margin-top: 10px;
+		
+}
+
+.pubDate {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.onJump {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 10px;
+	left: 120px;
+	
+}
+
+.dateJump1 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	
+}
+
+.monthJump1 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 10px;
+	left: 260px;
+	
+}
+
+.yearJump1 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 10px;
+	left: 355px;
+	
+}
+
+.dateJump2 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 40px;
+	left: 200px;
+	
+}
+
+.monthJump2 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 40px;
+	left: 260px;
+	
+}
+
+.yearJump2 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 40px;
+	left: 355px;
+	
+}
+
+
+#searchLimitersCheckboxes {
+	position: relative;
+	list-style-type: none;
+	min-height: 470px;
+	margin-top: 10px;
+}
+
+#advertising {
+	list-style-type: none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+	
+
+.advertising {
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+
+.advertisingLabel {
+	position: absolute;
+	top: 10px;
+	left: 60px;
+	font-weight: bold;
+}
+
+.classifiedAdvertising {
+	position: absolute;
+	top: 35px;
+	left: 45px;
+}
+.classifiedAdvertisingLabel {
+	position: absolute;
+	top: 35px;
+	left: 65px;
+}
+
+.displayAdvertising {
+	position: absolute;
+	top: 55px;
+	left: 45px;
+}
+
+.displayAdvertisingLabel {
+	position: absolute;
+	top: 55px;
+	left: 65px;
+}
+
+
+#newsBusiness {
+	list-style-type: none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.newsBusiness {
+position: absolute;
+top: 95px;
+left: 40px;
+}
+.newsBusinessLabel {
+position: absolute;
+top: 95px;
+left: 60px;
+font-weight: bold;
+}
+
+
+.businessFinance {
+position: absolute;
+top: 120px;
+left: 45px;
+}
+.businessFinanceLabel{
+position: absolute;
+top: 120px;
+left: 65px;
+}
+
+.frontPage {
+position: absolute;
+top: 140px;
+left: 45px;
+}
+.frontPageLabel {
+position: absolute;
+top: 140px;
+left: 65px;
+}
+
+.index {
+position: absolute;
+top: 160px;
+left: 45px;
+}
+.indexLabel {
+position: absolute;
+top: 160px;
+left: 65px;
+}
+
+.law {
+position: absolute;
+top: 180px;
+left: 45px;
+}
+.lawLabel{
+position: absolute;
+top: 180px;
+left: 65px;
+}
+
+.news {
+position: absolute;
+top: 200px;
+left: 45px;
+}
+.newsLabel {
+position: absolute;
+top: 200px;
+left: 65px;
+}
+
+.politics {
+position: absolute;
+top: 220px;
+left: 45px;
+}
+.politicsLabel {
+position: absolute;
+top: 220px;
+left: 65px;
+}
+
+.tableContents {
+position: absolute;
+top: 240px;
+left: 45px;
+}
+.tableContentsLabel {
+position: absolute;
+top: 240px;
+left: 65px;
+}
+
+#illustrationType {
+	list-style-type: none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.illustrationType {
+position: absolute;
+top: 280px;
+left: 40px;
+}
+.illustrationTypeLabel {
+position: absolute;
+top: 280px;
+left: 60px;
+font-weight: bold;
+}
+
+.cartoon {
+position: absolute;
+top: 305px;
+left: 45px;
+}
+.cartoonLabel {
+position: absolute;
+top: 305px;
+left: 65px;
+}
+
+.drawingPainting {
+position: absolute;
+top: 325px;
+left: 45px;
+}
+.drawingPaintingLabel {
+position: absolute;
+top: 325px;
+left: 65px;
+}
+
+.photograph {
+position: absolute;
+top: 345px;
+left: 45px;
+}
+.photographLabel {
+position: absolute;
+top: 345px;
+left: 65px;
+}
+
+.chart {
+position: absolute;
+top: 305px;
+left: 170px;
+}
+.chartLabel {
+position: absolute;
+top: 305px;
+left: 190px;
+}
+
+.map {
+position: absolute;
+top: 325px;
+left: 170px;
+}
+.mapLabel {
+position: absolute;
+top: 325px;
+left: 190px;
+}
+
+.engraving {
+position: absolute;
+top: 345px;
+left: 170px;
+}
+.engravingLabel {
+position: absolute;
+top: 345px;
+left: 190px;
+}
+
+#colorIllustrations {
+	list-style-type: none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.colorIllustrations {
+position: absolute;
+top: 380px;
+left: 45px;
+}
+.colorIllustrationsLabel {
+position: absolute;
+top: 380px;
+left: 65px;
+font-weight: bold;
+}
+
+
+#artsLeisure {
+	list-style-type: none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.artsLeisure {
+position: absolute;
+top: 10px;
+left: 315px;
+}
+.artsLeisureLabel {
+position: absolute;
+top: 10px;
+left: 335px;
+font-weight: bold;
+}
+.artsEntertainment{
+position: absolute;
+top: 35px;
+left: 320px;
+}
+.artsEntertainmentLabel {
+position: absolute;
+top: 35px;
+left: 340px;
+}
+.sport {
+position: absolute;
+top: 55px;
+left: 320px;
+}
+.sportLabel {
+position: absolute;
+top: 55px;
+left: 340px;
+}
+
+#people {
+	list-style-type: none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.people {
+position: absolute;
+top: 95px;
+left: 315px;
+}
+.peopleLabel {
+position: absolute;
+top: 95px;
+left: 335px;
+font-weight: bold;
+}
+
+.appointments {
+position: absolute;
+top: 120px;
+left: 320px;
+}
+.appointmentsLabel {
+position: absolute;
+top: 120px;
+left: 340px;
+}
+
+
+.birthsDeathsMarriages {
+position: absolute;
+top: 140px;
+left: 320px;
+}
+.birthsDeathsMarriagesLabel {
+position: absolute;
+top: 140px;
+left: 340px;
+}
+
+.obituaries {
+position: absolute;
+top: 160px;
+left: 320px;
+}
+.obituariesLabel {
+position: absolute;
+top:160px;
+left: 340px;
+}
+
+.royalty {
+position: absolute;
+top: 180px;
+left: 320px;
+}
+.royaltyLabel {
+position: absolute;
+top: 180px;
+left: 340px;
+
+}
+
+
+
+
+#specialIssues {
+	list-style-type: none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.specialIssues {
+position: absolute;
+top: 280px;
+left: 315px;
+}
+.specialIssuesLabel {
+position: absolute;
+top: 280px;
+left: 335px;
+font-weight: bold;
+}
+
+
+#editorialCommentary {
+	list-style-type: none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.editorialCommentary {
+position: absolute;
+top: 10px;
+left: 550px;
+}
+.editorialCommentaryLabel {
+position: absolute;
+left: 570px;
+top: 10px;
+font-weight: bold;
+}
+
+.featureArticles {
+position: absolute;
+top: 35px;
+left: 555px;
+
+}
+.featureArticlesLabel {
+position: absolute;
+top: 35px;
+left: 575px;
+}
+
+.lettersEditor {
+position: absolute;
+top: 55px;
+left: 555px;
+}
+.lettersEditorLabel {
+position: absolute;
+top: 55px;
+left: 575px;
+}
+
+.rolloverSearchBottom a {
+	display:block;
+	width: 100px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/buttons/SearchButtonRed.png") 0 0 no-repeat;
+	text-decoration: none;
+	border-bottom-color: #666;
+	position: absolute;
+	top: 420px;
+	left: 45px;
+	
+}
+.rolloverSearchBottom a:hover {
+	background-position: 0 -24px;
+}
+.rolloverSearchBottom a:active {
+	background-position: 0 -24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+	

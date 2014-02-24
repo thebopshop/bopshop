@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<!-- Google Analytics BEGIN -->
+<script type="text/javascript">
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-2086390-1']);
+     _gaq.push(['_trackPageview']);
+
+     (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+</script>
+<!-- Google Analytics END -->
+</head>
+<body>
+
+<!--<div id="container">
+<div class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_linkedin"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_favorites"></a>
+<a class="addthis_button_print"></a>
+<a class="addthis_button_email"></a>
+<a class="addthis_button_google_plusone"></a>
+</div> -->
+<!-- AddThis Button BEGIN -->
+<a class="addthis_button" href="http://addthis.com/bookmark.php?v=250">
+   <img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/>
+</a>
+<script type="text/javascript"> 
+   var addthis_config = {
+      data_ga_property: UA-2086390-1',
+      data_track_clickback: true
+   };
+</script>
+
+<noscript><div>Browser does not support script.</div></noscript>
+
+<!--Add This Script--> 
+<script type="text/javascript"> 
+ 
+$(document).ready(function() {
+ 
+  $("#changeURL").click(function() {
+    $(".addthis_button").attr("addthis:url","http://www.virginmediabusiness.co.uk");
+       window.addthis.ost = 0;
+       window.addthis.ready();
+  });
+});
+ 
+// prevent jQuery from appending cache busting string to the end of the URL
+var cache = jQuery.ajaxSettings.cache;
+jQuery.ajaxSettings.cache = true;
+jQuery.getScript('http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e088c4f62391c22');
+   
+// Restore jQuery caching setting
+jQuery.ajaxSettings.cache = cache;
+ 
+</script>
+</div>
+</body>
+</html>
+

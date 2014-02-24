@@ -1,0 +1,46 @@
+# Apache Rewrite Rules
+ #<IfModule mod_rewrite.c>
+  #Options +FollowSymLinks
+  #RewriteEngine On
+  #RewriteBase /
+
+# Add php to url
+ # RewriteCond %{REQUEST_FILENAME} !-f
+ # RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/|#(.*))$
+ # RewriteRule ^(.*)$ $1.php [R=301,L]
+
+# Remove .php-extension from url
+ # RewriteCond %{REQUEST_FILENAME} !-d
+ # RewriteCond %{REQUEST_FILENAME}  -f
+  #RewriteRule ^([^\.]+)/$ $1.php 
+
+# End of Apache Rewrite Rules
+#</IfModule>
+ 
+ # do not allow anyone else to read your .htaccess file
+<Files .htaccess>
+deny from all
+</Files>
+
+# forbid viewing of directories
+Options All -Indexes
+
+# hide this list of files from being seen when listing a directory
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+# disable the server signature- helps with preformance
+ServerSignature Off
+
+# since it's out of fashion to use www- redirect URLs to non-www
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.thebop\.biz$ [NC]
+RewriteRule ^.*$ http://thebop.biz%{REQUEST_URI} [R=301,L]
+RewriteBase /
+# keep the URLs clean:
+# if someone asks for index.php- rewrite the URL without it
+RewriteRule ^(.*?)/?index\.php$ $1 [NC,R=301,L]
+RewriteRule ^(.*?)/?\.php$ $1 [NC,R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/|#(.*))$
+RewriteRule ^(.*)$ $1/ [R=301,L]

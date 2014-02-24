@@ -1,0 +1,311 @@
+/*standard selectors*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color:#cccccc;
+}
+a:link {
+	color: #669B9B;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #D2EDF6;
+}
+a:hover {
+	text-decoration: none;
+	color: #D2EDF6;
+}
+a:active {
+	text-decoration: none;
+}
+a {
+	outline: 0;
+}
+a, a img {
+	border: none;
+}
+/*headers*/
+
+#header {
+	height: 122px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#headerTop {
+	background-color: #000000;
+	height: 32px;
+	width: 1000px;
+	background-repeat: repeat-x;
+}
+.topLinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 32px;
+	float: left;
+	margin:0 auto;
+	padding:0;
+	height:32px;
+	width: auto;
+	display:block;
+}
+.topLinks li {
+	padding:0;
+	margin:0;
+	list-style:none;
+	display:inline;
+}
+.topLinks li a {
+	float:left;
+	padding-left:15px;
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor:pointer;
+}
+/*.topLinks li a span {
+	line-height:32px;
+	float:left;
+	display:block;
+	padding-right:15px;
+}*/
+.topLinks li a:hover {
+	color:#D2EDF6;
+}
+/*#galeLogo {
+	float: right;
+	height: 32px;
+	width: 284px;
+	background-image: url(../images/gale-logo.png);
+	background-repeat: no-repeat;
+}*/
+#galeLogoLink {
+	float: right;
+	height: 32px;
+	width: 124px;
+}
+
+#bannerHolder {
+	height: 90px;
+	width: 1000px;
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	position: relative;
+}
+#brandingScript {
+	height:90px;
+	position:absolute;
+	right:5px;
+	top:0;
+	width:200px;
+}
+
+
+/*navigation*/
+
+#navBar {
+	width: 998px;
+	height:32px;
+	background: #669B9B;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+/*#navWrapper {
+	width: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	background: #669B9B;
+	float: left;
+	position: relative;
+}*/
+/* positioning */
+
+#navigation {
+	height: 32px;
+}
+#navigation ul {
+	list-style: none;
+}
+#navigation li {
+	float: left;
+	position: relative;
+	font-size: 14px;
+	font-weight: bold;
+}
+#navigation li li {
+	float: none;
+	font-size: 14px;
+}
+#navigation a {
+	background: #669B9B;
+	color: #D2EDF6;
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	width: auto;
+	line-height: 32px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	border-right-width: thin;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-color: #FFF;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#navigation a:hover {
+	color: #ffffff;
+}
+#navigation li li a {
+	height: auto;
+	background: none;
+	border: 0;
+	text-align: left;
+	margin: 0;
+	line-height: 32px;
+}
+#ddContainer {
+	position: absolute;
+	left: -10055px;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+}
+#navigation li:hover #ddContainer {
+	display: block;
+	left: -1px;
+	
+}
+/* styles for drop-down */
+#ddContainer {
+	padding: 15px 0 0 0;
+	line-height: 24px;
+	width: 200px;
+	height: 80px;
+	background: #669B9B;
+	z-index: 1000;
+}
+#ddContainer a {
+	font-weight: normal;
+	font-size: 12px;
+	color: #D2EDF6;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: auto !important;
+}
+#ddContainer a:hover {
+	color: #ffffff;
+}
+#navigation #ddc1, #navigation #ddc2, #ddc3, #ddc4 {
+	float: left;
+	width: auto;
+	margin-left: 0;
+}
+#navigation #ddc1 {
+	margin-left: 0;
+}
+/*nav bar basic search field*/
+
+.rollover a {
+	display:block;
+	width: 102px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/buttons/button-black-background.png") 0 0 no-repeat;
+	text-decoration: none;
+	padding: 4px 0 0 0;
+	text-align: center;
+	position: absolute;
+	top: 5px;
+	left: 890px;
+}
+.rollover a:hover {
+	color: #D2EDF6;
+}
+.textInputTopSearch {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:1px solid #000000;
+	color:#000000;
+	font-size:12px;
+	height:22px;
+	padding-left:3px;
+	position:absolute;
+	left: 755px;
+	top:5px;
+}
+
+/*main content*/
+
+
+#contentContainer {
+	height: auto;
+	width: 998px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+.clear {
+	clear:both;
+}
+/*footer*/
+
+#footer {
+	height: 60px;
+	width: 988px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #ffffff url(../images/footer-background.png);
+	background-repeat:no-repeat;
+	line-height: 32px;
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	border: 1px solid #000000;
+	
+}
+#footerCopyright {
+	line-height: 20px;
+	float: left;
+	height: 52px;
+	width: auto;
+	font-size: 10px;
+}
+.footerLinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 32px;
+	color: #FFF;
+	float: right;
+	height: 52px;
+	width: auto;
+	padding-right: 10px;
+	line-height: 32px;
+}
+
+.footerLinks a {
+	color: #ffffff;
+	text-decoration:none;
+}
+.footerLinks a:hover {
+	color:#D2EDF6;
+	text-decoration: none;
+}

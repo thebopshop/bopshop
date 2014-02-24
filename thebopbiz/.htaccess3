@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+
+DefaultType application/x-httpd-php
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php
+
+</IfModule>
+
+# do not allow anyone else to read your .htaccess file
+<Files .htaccess>
+deny from all
+</Files>

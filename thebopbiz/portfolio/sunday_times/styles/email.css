@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #5d170e;
+	font-weight: bold;
+}
+a:hover {
+	color:  #666666;
+}
+#emailContainer {
+	width: 700px;
+	height: 700px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+#emailTop {
+	width: 700px;
+	height: 201px;
+	background: url(../images/email-bg.png);
+	color: #000000;
+	position: relative;
+}
+.emailHeading {
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	width: 100%;
+	border-bottom: 1px solid #ffffff;
+	padding: 0 0 10px 5px;
+}
+.selectFormat {
+	position: absolute;
+	top: 12px;
+	right: 5px;
+	font-size:15px;
+}
+.emailText {
+	position: absolute;
+	top: 80px;
+	left: 100px;
+	width: 260px;
+	height: 22px;
+	border: 1px solid #000000;
+}
+.emailTextLabel {
+	position: absolute;
+	top: 82px;
+	left: 50px;
+	font-weight: bold;
+}
+.separate {
+	position: absolute;
+	top: 110px;
+	left: 100px;
+}
+.sendCancel {
+	position: absolute;
+	top: 165px;
+	left: 100px;
+}
+.emailOptions {
+	position: absolute;
+	top: 210px;
+	left: 5px;
+	font-weight:bold;
+	font-size: 14px;
+}
+.emailFormat {
+	position: absolute;
+	top: 250px;
+	left: 5px;
+	font-weight:bold;
+	width: 100px;
+}
+.htmlRadio {
+	position: absolute;
+	top: 270px;
+	left: 80px;
+}
+.htmlRadioLabel {
+	position: absolute;
+	top: 270px;
+	left: 100px;
+}
+.plainText {
+	position: absolute;
+	top: 290px;
+	left: 80px;
+}
+.plainTextLabel {
+	position: absolute;
+	top: 290px;
+	left: 100px;
+}
+.note {
+	position: absolute;
+	top: 320px;
+	left: 5px;
+	width: 650px;
+}
+.subject {
+	position: absolute;
+	top: 340px;
+	left: 100px;
+	width: 260px;
+	height: 22px;
+	border: 1px solid #000000;
+}
+.subjectLabel {
+	position: absolute;
+	top: 345px;
+	left: 20px;
+	font-weight: bold;
+}
+.sender {
+	position: absolute;
+	top: 375px;
+	left: 100px;
+	width: 260px;
+	height: 22px;
+	border: 1px solid #000000;
+}
+.senderLabel {
+	position: absolute;
+	top: 380px;
+	left: 9px;
+	font-weight: bold;
+}
+.message {
+	position: absolute;
+	top: 410px;
+	left: 100px;
+	height: 200px;
+	width: 260px;
+	border: 1px solid #000000;
+}
+.messageLabel {
+	position: absolute;
+	top: 415px;
+	left: 39px;
+	font-weight: bold;
+}
+.sendCancelBottom {
+	position: absolute;
+	top: 640px;
+	left: 100px;
+	font-weight: bold;
+}
+.sendCancelBottom a:hover {
+	color:  #666666;
+}

@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contentContainer {
+	padding-top: 45px;
+	padding-bottom: 10px;
+	background: #ffffff;
+	padding-top: 20px;
+	border-top: 1px solid #cccccc;
+}
+#historyPanel {
+	width: 788px;
+	height: auto;
+	background: #ffffff;
+	margin: 10px 10px 0 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 10px;
+}
+#headingBar {
+	height: 50px;
+	width: 100%;
+	background: url(../images/heading-bg.png);
+	background-repeat: no-repeat;
+	border-top: 1px solid #000000;
+	position: relative;
+}
+#headingBar h1 {
+	width: 250px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:16px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: left;
+}
+#historyPageInfo {
+	width: 100%;
+	background: #ffffff;
+	padding-top: 5px;
+	border-bottom: 1px solid #000000;
+	position: relative;
+}
+.historyInfo {
+	font-family: Tahoma, Geneva, sans-serif;
+	padding: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	width: 400px;
+	height: auto;
+	padding-left: 20px;
+}
+.clearHistory {
+	position: absolute;
+	top: 10px;
+	left: 208px;
+}
+.clearHistory a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.historyListBox {
+	width: auto;
+	height: auto;
+	background: #ffffff;
+}
+.historyList {
+	list-style-type: none;
+	width: auto;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	border: 1 px solid #0F0;
+	margin-top: 10px;
+	position: relative;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.historyList a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+.historyList a.active {
+	color: #ffcc33;
+	background: #FE811F;
+	padding: 0 3px;
+}
+.historyList li {
+	display: inline;
+	padding-right: 20px;
+}
+.historyList .markItem {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+#backToTop {
+	height: auto;
+	width: 100%;
+	text-align:center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #000000;
+	margin-top: 20px;
+}

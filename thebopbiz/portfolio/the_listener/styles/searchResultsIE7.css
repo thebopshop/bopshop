@@ -1,0 +1,88 @@
+#contentContainer {
+	padding-left: 10px;
+	width: 988px;
+}
+
+
+#leftPanel {
+	width: 180px;
+	margin: 10px 0 0 0;
+}
+
+#rightPanel {
+	width: 785px;
+	margin: 10px 10px 5px 0;	
+}
+
+.resultsInfoJumpLabel {
+	right: 210px;
+}
+.resultsInfo {	
+	padding-left: 15px;
+}
+.goToPageLabel {
+	left: 507px;
+}
+.goToPageTextarea {
+	left: 581px;
+}
+.markAll {
+	
+	top: 6px;
+	
+	
+	
+}
+
+.markAllLabel {
+	
+	top: 10px;
+	left: 29px;
+	
+}	
+
+.prevNext {
+	
+	top: 10px;
+	
+	
+}
+
+
+.resultsNumbers {
+	
+	top: 10px;
+}
+	
+
+
+
+.goToPageLabel {
+	
+	top: 10px;
+	
+}
+
+.goToPageTextarea {
+	
+	top: 7px;
+	
+}
+
+.rolloverGoToPage a {
+	
+	top: 7px;
+	
+	
+ 
+}
+
+.resultsList .markLabel {
+	
+	left: 30px;
+	top: 8px;
+}
+#backToTop {
+	
+	margin-top: 10px;
+}

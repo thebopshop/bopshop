@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/*a:link {
+	color: #FE811F;
+	text-decoration: none;
+}*/
+a:visited {
+	text-decoration: none;
+	color: #00234b;
+}
+a:hover {
+	text-decoration: none;
+	color: #00234b;
+}
+a:active {
+	text-decoration: none;
+	color: #00234b;
+}
+a {
+    outline: 0;
+}
+a, a img {
+	border: none;
+}
+
+#contentContainer {
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	width: 998px;
+	background: #ffffff url(../images/navigation-shadow.png);
+	background-repeat:repeat-x;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+/*#navBar {
+	border: none;
+	width: 1000px;
+}*/
+.clear{
+	clear: both;
+}
+
+/*accordion menu*/
+.arrowlistmenu{
+	width: 198px;
+	background-color: #333333;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	float: left;
+}
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	padding-top: 4px;
+	line-height: 20px;
+	color: #D2EDF6;
+	background-image: #333333 url(../images/accordionBG.png);
+	background-repeat: repeat-x;
+	height: 20px;
+	cursor: hand;
+	cursor: pointer;
+	text-indent: 10px;
+	border-top: 1px solid #626262;
+	border-bottom: 1px solid #000000;
+}
+
+.menuheader a {
+	color: #D2EDF6;
+}
+
+.menuheader a:hover {
+	color: #ffffff;
+}
+
+.menuheader a:visited {
+	color: #00234b;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+	background-image: url(../images/accordionBG.png);
+}
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.arrowlistmenu ul li{
+/*padding-bottom: 2px; /*bottom spacing between menu items*/*/
+}
+.arrowlistmenu ul li a{
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+padding: 2px 0;
+padding-left: 30px;
+text-decoration: none;
+font-weight: bold;
+font-size: 12px;
+line-height: 22px;
+color: #D2EDF6;
+}
+.arrowlistmenu ul li a:active{
+color: #00234b;
+}
+.arrowlistmenu ul li a:visited{
+color: #00234b;
+}
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color: #FFFFFF;
+}
+#accordionContainer {
+	background-color: #FFF;
+	width: 210px;
+	background-image: url(../images/shadowRightLong.png);
+	background-repeat: repeat-y;
+	float: left;
+}
+#leftColumn {
+	float: left;
+	height: 220px;
+	width: 208px;
+	background-color: #FFF;
+	margin-left: 10px;
+}
+#shadowTopRight {
+	float: left;
+	height: 10px;
+	width: 10px;
+	background-image: url(../images/shadowTopCorner.png);
+	background-repeat: no-repeat;
+}
+#shadowBottom {
+	background-image: url(../images/shadowBottom.png);
+	background-repeat: no-repeat;
+	height: 10px;
+	width: 210px;
+}
+
+
+
+
+
+/*dashboard area*/
+#rightColumn {
+	width: 780px;
+	background-color: #FFF;
+	float: right;
+	height: auto;
+}
+#lowerRightColumn {
+	width: 780px;
+	background-color: #FFF;
+	float: right;
+	height: auto;
+}
+.dashboardBox {
+	height: auto;
+	width: 373px;
+	border: 1px solid #000;
+	background-image: url(../images/login-heading-background.png);
+	background-repeat: repeat-x;
+	background-color: #FFF;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	text-indent: 10px;
+	float: right;
+	margin-right: 10px;
+}
+.dashboardBox2 {
+	height: auto;
+	width: 373px;
+	border: 1px solid #000;
+	background-image: url(../images/login-heading-background.png);
+	background-repeat: repeat-x;
+	background-color: #FFF;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	text-indent: 10px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.viewAll {
+	float: right;
+	height: auto;
+	width: auto;
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+.viewAll a:hover {
+	color: #D2EDF6;
+}
+.dashboardSubHeading {
+	width: 98px;
+	float: left;
+	line-height: 24px;
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	padding-top: 10px;
+	text-indent: 10px;
+}
+.accountPrefDetails {
+	width: 373px;
+	line-height: 24px;
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	padding-top: 10px;
+	text-indent: 10px;
+}
+.dashboardList {
+	float: left;
+	padding-left: 10px;
+	font-size: 12px;
+	color: #000;
+	line-height: normal;
+	padding-top: 10px;
+	text-indent: 0px;
+	padding-bottom: 10px;
+}
+.dashboardUL {
+	list-style: none;
+}
+.dashboardUL:link {
+	color: #000000;
+	text-decoration: none;
+	list-style: none;
+	font-weight: normal;
+}
+.dashboardUL:visited {
+	text-decoration: none;
+	color: #000000;
+	list-style: none;
+	font-weight: normal;
+}
+.dashboardUL:hover {
+	text-decoration: none;
+	color: #000000;
+	list-style: none;
+	font-weight: normal;
+}
+.dashboardUL:active {
+	text-decoration: none;
+	list-style: none;
+	font-weight: normal;
+}
+.dashboardLowerLink {
+	line-height: 32px;
+	height: 32px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000;
+	padding-left: 98px;
+}
+
+
+
+
+/*login area*/
+#loginBox {
+	width: 768px;
+	margin-right: 10px;
+	background-image:url(../images/login-heading-background.png);
+	background-repeat: repeat-x;
+	background-color: #FFF;
+	float: right;
+	height: auto;
+	border: 1px solid #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFF;
+	text-indent: 10px;
+	margin-bottom: 20px;
+}
+#loginSpacer {
+	height: 40px;
+}
+.textFieldLogin
+{
+	border: 1px solid #666;
+	background: #FFF;
+	color: #000;
+	font-size: 12px;
+	line-height: 22px;
+	height: 22px;
+}
+.searchFieldLogin {
+	height: auto;
+	width: 400px;
+	line-height: 32px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 10px;
+	text-align: left;
+	float: left;
+}
+.loginLabelsContainer {
+	float: left;
+	height: auto;
+	width: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 10px;
+	text-align: right;
+	padding-right: 10px;
+	line-height: 34px;
+}
+#loginButtons {
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+	font-weight: normal;
+	padding-left: 220px;
+	text-indent: 0px;
+	line-height: normal;
+	padding-bottom: 60px;
+}
+
+#footer {
+	border: none;
+	width: 990px;
+}

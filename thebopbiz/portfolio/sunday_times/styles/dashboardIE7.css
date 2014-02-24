@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.arrowlistmenu {
+	width: 175px;
+}
+
+.dashboardBox {
+	margin-left: 10px;
+}
+.dashboardBox2 {
+	margin-left: 0px;
+}
+#loginButtons {
+	width: auto;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+	font-weight: normal;
+	padding-left: 210px;
+	text-indent: 0px;
+	line-height: normal;
+	padding-bottom: 60px;
+}

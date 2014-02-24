@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The Listener Historical Archive | Advanced Search</title>
+<link href="styles/style.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="styles/advancedSearch.css" type="text/css" rel="stylesheet" media="screen"/>
+<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="styles/advancedSearchIE7.css" />
+<![endif]-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/zindexfix.js"></script>
+<script type="text/javascript" src="js/placeholder.js"></script>
+</head>
+<body>
+<!--HEADER STARTS-->
+<div id="header">
+  <div id="headerTop">
+    <ul class="topLinks">
+      <li><a href="#">Not signed in? LOG IN</a></li>
+      <li><a href="#">Change databases</a></li>
+      <li><a href="#">dev1_bncn</a></li>
+      <li><a href="#">Return to library</a></li>
+      <li><a href="#">LOG OUT</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+    <div id="galeLogoLink"><a href="http://www.cengage.co.uk"><img src="images/gale-logo-link.png" alt="Visit the Gale website" width="124" height="32" /></a></div>
+  </div>
+  <div id="bannerHolder">
+    <div id="brandingScript"></div>
+  </div>
+</div>
+<!--HEADER ENDS-->
+<!--NAVIGATION STARTS-->
+<div id="navBar">
+  <!--<div id="navWrapper">-->
+  <div id="navigation">
+   <ul>
+        <li><a href="index.html">HOME</a> </li>
+        <li><a href="advancedSearch.html">ADVANCED SEARCH</a> </li>
+        <li> <a href="#">BROWSE ▼</a>
+          <div id="ddContainer">
+            <ul id="ddc1">
+              <li><a href="browseByDate.html">BROWSE BY DATE</a></li>
+              <li><a href="browseContributor.html">BROWSE CONTRIBUTOR</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="searchHistory.html">SEARCH HISTORY</a> </li>
+        <li><a href="markedList.html">MARKED LIST</a> </li>
+        
+      </ul>
+  </div>
+  <!--<input name="field" type="text" class="textInputTopSearch" size="20" placeholder="Basic Search"/>
+  <div class="rollover"><a href="#">SEARCH</a></div>-->
+  <div class="clear"></div>
+  <!--</div>-->
+</div>
+<!--NAVIGATION ENDS-->
+<!--MAIN CONTAINER START-->
+<div id="contentContainer">
+  <!--ADV SEARCH TOP START-->
+  <div id="advSearchTop">
+    <!--HEADING START-->
+    <h1 class="headingBar">ADVANCED SEARCH</h1>
+    <!--HEADING END-->
+    <!--BREADCRUMB START-->
+    <div class="breadcrumb"> <a href="#">Basic Search</a> &#62; Advanced Search </div>
+    <!--BREADCRUMB END-->
+    <div class="clear"></div>
+    <!--ADV SEARCH CATEGORIES START-->
+    <div id="advSearchCategories">
+      <p class="fuzzySearch"><a href="#">FUZZY SEARCH </a><a href="#" class="helpFuzzy"> <img src="images/icons/help-icon.png" width="26" height="26" alt="What is fuzzy search?" /></a></p>
+      <!--TOP LEVEL CATEGORY JUMP MENU-->
+      <ul class="catJumpMenuTop">
+        <li>
+          <input class="catTextfield1" name="cat1" type="text" />
+          <label class="catLabel1">IN</label>
+          <select name="category" class="categoryJump1" onchange="MM_jumpMenu('parent',this,0)">
+            <option>Article Title</option>
+          </select>
+          <select name="fuzzy" class="fuzzyJump1" onchange="MM_jumpMenu('parent',this,0)">
+            <option>None</option>
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+          </select>
+        </li>
+      </ul>
+      <!--LOWER LEVEL CATEGORY JUMP MENUS-->
+      <ul class="catJumpMenuLower">
+        <li>
+          <select name="and" class="andJump" onchange="MM_jumpMenu('parent',this,0)">
+            <option>And</option>
+            <option>Or</option>
+            <option>Not</option>
+          </select>
+          <input class="catTextfield2" name="cat2" type="text" />
+          <label class="catLabel2">IN</label>
+          <select name="category" class="categoryJump2" onchange="MM_jumpMenu('parent',this,0)">
+            <option>Article Title</option>
+          </select>
+          <select name="fuzzy" class="fuzzyJump2" onchange="MM_jumpMenu('parent',this,0)">
+            <option>None</option>
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+          </select>
+        </li>
+      </ul>
+      <div class="clear"></div>
+      <ul class="catJumpMenuLower">
+        <li>
+          <select name="and" class="andJump" onchange="MM_jumpMenu('parent',this,0)">
+            <option>And</option>
+            <option>Or</option>
+            <option>Not</option>
+          </select>
+          <input class="catTextfield2" name="cat2" type="text" />
+          <label class="catLabel2">IN</label>
+          <select name="category" class="categoryJump2" onchange="MM_jumpMenu('parent',this,0)">
+            <option>Article Title</option>
+          </select>
+          <select name="fuzzy" class="fuzzyJump2" onchange="MM_jumpMenu('parent',this,0)">
+            <option>None</option>
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+          </select>
+        </li>
+      </ul>
+      <div class="clear"></div>
+      <div id="searchButtons">
+        <div class="rolloverAddRow"><a href="#">ADD A ROW</a></div>
+        <div class="rolloverClear"><a href="#">CLEAR</a></div>
+        <div class="rolloverSearch"><a href="#">SEARCH</a></div>
+      </div>
+    </div>
+    <!--ADV SEARCH CATEGORIES END-->
+  </div>
+  <!--ADV SEARCH TOP END-->
+  <h1 class="searchLimitersHeading">LIMIT YOUR SEARCH<a href="#" class="helpLimiting"><img src="images/icons/help-icon.png" width="26" height="26" alt="Help with browsing" /></a></h1>
+  <div id="searchLimitersJumpMenus">
+    <label class="pubDate">Publication Date:</label>
+    <select name="jumpMenu9" class="onJump" onchange="MM_jumpMenu('parent',this,0)">
+      <option>On</option>
+      <option>Before</option>
+      <option>After</option>
+      <option>Between</option>
+    </select>
+    <select name="jumpMenu10" class="dateJump1" onchange="MM_jumpMenu('parent',this,0)">
+      <option>Date</option>
+    </select>
+    <select name="jumpMenu11" class="monthJump1" onchange="MM_jumpMenu('parent',this,0)">
+      <option>Month</option>
+      <option>January</option>
+      <option>February</option>
+      <option>March</option>
+      <option>April</option>
+      <option>May</option>
+      <option>June</option>
+      <option>July</option>
+      <option>August</option>
+      <option>September</option>
+      <option>October</option>
+      <option>November</option>
+      <option>December</option>
+    </select>
+    <select name="jumpMenu12" class="yearJump1" onchange="MM_jumpMenu('parent',this,0)">
+      <option>Year</option>
+      <option>2010</option>
+    </select>
+    <select name="jumpMenu13" class="dateJump2" onchange="MM_jumpMenu('parent',this,0)">
+      <option>Date</option>
+    </select>
+    <select name="jumpMenu14" class="monthJump2" onchange="MM_jumpMenu('parent',this,0)">
+      <option>Month</option>
+      <option>January</option>
+      <option>February</option>
+      <option>March</option>
+      <option>April</option>
+      <option>May</option>
+      <option>June</option>
+      <option>July</option>
+      <option>August</option>
+      <option>September</option>
+      <option>October</option>
+      <option>November</option>
+      <option>December</option>
+    </select>
+    <select name="jumpMenu15" class="yearJump2" onchange="MM_jumpMenu('parent',this,0)">
+      <option>Year</option>
+      <option>2010</option>
+    </select>
+  </div>
+  <div id="searchLimitersCheckboxes">
+    <ul id="advertising">
+      <li>
+        <input class="advertising" type="checkbox" value="" />
+        <label class="advertisingLabel">Advertising</label>
+      </li>
+      <li>
+        <input class="classifiedAdvertising" type="checkbox" value="" />
+        <label class="classifiedAdvertisingLabel">Classified Advertising</label>
+      </li>
+      <li>
+        <input class="displayAdvertising" type="checkbox" value="" />
+        <label class="displayAdvertisingLabel">Display Advertising</label>
+      </li>
+    </ul>
+    <ul id="editorialCommentary">
+      <li>
+        <input class="editorialCommentary" type="checkbox" value="" />
+        <label class="editorialCommentaryLabel">Editorial and Commentary</label>
+      </li>
+      <li>
+        <input class="artsEnt" type="checkbox" value="" />
+        <label class="artsEntLabel">Arts and Entertainment</label></li>
+      <li>
+        <input class="featureArticles" type="checkbox" value="" />
+        <label class="featureArticlesLabel">Feature Articles</label>
+      </li>
+      <li>
+        <input class="lettersEditor" type="checkbox" value="" />
+        <label class="lettersEditorLabel">Letters to the Editor</label>
+      </li>
+      <li>
+        <input class="obituaries" type="checkbox" value="" />
+        <label class="obituariesLabel">Obituaries</label></li>
+      <li>
+        <input class="poem" type="checkbox" value="" />
+        <label class="poemLabel">Poem</label></li>
+      <li>
+        <input class="science" type="checkbox" value="" />
+        <label class="scienceLabel">Science and Technology</label></li>
+    </ul>
+    <ul id="miscellaneous">
+      <li>
+        <input class="miscellaneous" type="checkbox" value="" />
+        <label class="miscellaneousLabel">Miscellaneous</label>
+      </li>
+      <li>
+        <input class="cover" type="checkbox" value="" />
+        <label class="coverLabel">Cover</label>
+      </li>
+      <li>
+        <input class="listings" type="checkbox" value="" />
+        <label class="listingsLabel">Listings</label>
+      </li>
+      <li>
+        <input class="pubMatter" type="checkbox" value="" />
+        <label class="pubMatterLabel">Publication Matter</label>
+      </li>
+      <li>
+        <input class="toc" type="checkbox" value="" />
+        <label class="tocLabel">Table of Contents</label>
+      </li>
+    </ul>
+    <ul id ="illustrations">
+      <li>
+        <input class="illustrationType" type="checkbox" value="" />
+        <label class="illustrationTypeLabel">Articles with illustrations only</label>
+      </li>
+      <li>
+        <input class="cartoon" type="checkbox" value="" />
+        <label class="cartoonLabel">Cartoon</label>
+      </li>
+      <li>
+        <input class="chart" type="checkbox" value="" />
+        <label class="chartLabel">Chart</label>
+      </li>
+      <li>
+        <input class="drawingPainting" type="checkbox" value="" />
+        <label class="drawingPaintingLabel">Drawing, Painting</label>
+      </li>
+      <li>
+        <input class="map" type="checkbox" value="" />
+        <label class="mapLabel">Map</label>
+      </li>
+      <li>
+        <input class="photograph" type="checkbox" value="" />
+        <label class="photographLabel">Photograph</label>
+      </li>
+    </ul>
+    <div class="rolloverSearchBottom"><a href="#">SEARCH</a></div>
+  </div>
+</div>
+<!--MAIN CONTAINER ENDS-->
+<!--FOOTER STARTS-->
+<div id="footer">
+  <div id="footerCopyright">
+    <p>© Copyright 2010 Cengage Learning</p>
+    <p> © BBC logo1996; BBC &amp; THE LISTENER are trademarks of the British Broadcasting Corporation and are used under licence.</p>
+  </div>
+  <div class="footerLinks"><a href="#">Contact us</a></div>
+  <div class="footerLinks"><a href="#">Copyright</a></div>
+  <div class="footerLinks"><a href="#">Terms of use</a></div>
+  <div class="footerLinks"><a href="#">Privacy policy</a></div>
+</div>
+<!--/FOOTER ENDS-->
+</body>
+</html>

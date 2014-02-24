@@ -1,0 +1,9 @@
+#browseContributorTop {
+	background: url(../images/browse-by-date-background.png);
+	background-repeat: repeat-x;
+	width: 998px;
+	height: auto;
+	height: 170px;
+	overflow: visible;
+	padding-bottom: 10px;
+}

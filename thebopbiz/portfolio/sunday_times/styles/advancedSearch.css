@@ -1,0 +1,636 @@
+@charset "utf-8";
+/* CSS Document */
+#contentContainer {
+	padding-bottom: 20px;
+}
+#advSearchTop {
+	background: #616161 url(../images/adv-search-bg.png);
+	background-repeat: repeat-x;
+	width: 998px;
+	height: auto;
+	overflow: visible;
+	padding-bottom: 20px;
+}
+.headingBar {
+	width: 100%;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:16px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float: left;
+	border-bottom: 1px solid #ffffff;
+}
+#advSearchCategories {
+	position: relative;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	margin-top: 10px;
+}
+.fuzzySearch {
+	position: absolute;
+	top: 20px;
+	right: 131px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.fuzzySearch a {
+	color: #ffffff;
+}
+.fuzzySearch a:hover {
+	color: #ffcc33;
+}
+.helpFuzzy {
+	position: absolute;
+	top: -5px;
+	left:90px;
+}
+.catJumpMenuTop {
+	list-style-type: none;
+	display: inline;
+}
+.catJumpMenuTop li {
+	padding-top: 40px;
+}
+.catTextfield1 {
+	height: 22px;
+	width: 270px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 176px;
+}
+.catLabel1 {
+	color: #000000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 8px;
+	padding-right: 5px;
+}
+.categoryJump1 {
+	height: 22px;
+	width: 130px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	margin-right: 5px;
+}
+.fuzzyJump1 {
+	height: 22px;
+	width: 72px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+}
+.catJumpMenuLower {
+	list-style-type: none;
+	display: inline;
+}
+.catJumpMenuLower li {
+	padding-top: 5px;
+}
+.andJump {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 106px;
+	margin-right: 6px;
+	width: 60px;
+}
+.catTextfield2 {
+	height: 22px;
+	width: 270px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+}
+.catLabel2 {
+	color: #000000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 8px;
+	padding-right: 5px;
+}
+.categoryJump2 {
+	height: 22px;
+	width: 130px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	margin-right: 5px;
+}
+.fuzzyJump2 {
+	height: 22px;
+	width: 72px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+}
+#searchButtons {
+	height: 24px;
+	width: 100%;
+	margin-top: 10px;
+	position: relative;
+}
+.rolloverAddRow a {
+	color: #ffffff;
+	background:url("../images/button-bg.png") no-repeat scroll 0 0 transparent;
+	border-bottom-color:#666666;
+	display:block;
+	font:bold 13px sans-serif;
+	height:24px;
+	text-decoration:none;
+	width:102px;
+	position:absolute;
+	top:0;
+	left:176px;
+	padding: 4px 0 0 0;
+	text-align: center;
+}
+.rolloverAddRow a:hover {
+	background: url("../images/button-bg.png") 0 0 no-repeat;
+	color: #ffcc33;
+}
+.rolloverClear a {
+	color: #ffffff;
+	display:block;
+	width: 102px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/button-bg.png") 0 0 no-repeat;
+	text-decoration: none;
+	border-bottom-color: #666;
+	position:absolute;
+	top:0;
+	left:290px;
+	padding: 4px 0 0 0;
+	text-align: center;
+}
+.rolloverClear a:hover {
+	background: url("../images/button-bg.png") 0 0 no-repeat;
+	color: #ffcc33;
+}
+.rolloverSearch a {
+	color: #ffffff;
+	display:block;
+	width: 102px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/button-bg.png") 0 0 no-repeat;
+	text-decoration: none;
+	border-bottom-color: #666;
+	position:absolute;
+	top:0;
+	left:589px;
+	padding: 4px 0 0 0;
+	text-align: center;
+}
+.rolloverSearch a:hover {
+	background: url("../images/button-bg.png") 0 0 no-repeat;
+	color: #ffcc33;
+}
+.searchLimitersHeading {
+	width: 100%;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000000;
+	font-size:14px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-indent: 10px;
+	border-bottom: 1px solid #000000;
+	position: relative;
+}
+.helpLimiting {
+	position: absolute;
+	top: 5px;
+	left: 155px;
+}
+#searchLimitersJumpMenus {
+	position: relative;
+	height: 40px;
+	margin-top: 10px;
+}
+.pubDate {
+	position: absolute;
+	top: 13px;
+	left: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.onJump {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 10px;
+	left: 120px;
+}
+.dateJump1 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 10px;
+	left: 200px;
+}
+.monthJump1 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 10px;
+	left: 260px;
+}
+.yearJump1 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 10px;
+	left: 355px;
+}
+.and {
+	position: absolute;
+	top: 13px;
+	left: 418px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.dateJump2 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 10px;
+	left: 450px;
+}
+.monthJump2 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 10px;
+	left: 510px;
+}
+.yearJump2 {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 10px;
+	left: 605px;
+}
+#searchLimitersCheckboxes {
+	height: 305px;
+	position: relative;
+	list-style-type: none;
+	margin-top: 10px;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 15px;
+}
+#advertising {
+	list-style-type: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.advertising {
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+.advertisingLabel {
+	position: absolute;
+	top: 10px;
+	left: 60px;
+	font-weight: bold;
+}
+.classifiedAdvertising {
+	position: absolute;
+	top: 35px;
+	left: 45px;
+}
+.classifiedAdvertisingLabel {
+	position: absolute;
+	top: 35px;
+	left: 65px;
+}
+.displayAdvertising {
+	position: absolute;
+	top: 55px;
+	left: 45px;
+}
+.displayAdvertisingLabel {
+	position: absolute;
+	top: 55px;
+	left: 65px;
+}
+.property {
+	position: absolute;
+	top: 75px;
+	left: 45px;
+}
+.propertyLabel {
+	position: absolute;
+	top: 75px;
+	left: 65px;
+}
+
+
+/*---editorial---*/
+#editorial {
+	list-style-type: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.editorial {
+	position: absolute;
+	top: 10px;
+	left: 265px;
+}
+.editorialLabel {
+	position: absolute;
+	top: 10px;
+	left: 285px;
+	font-weight: bold;
+}
+.leaders {
+	position: absolute;
+	top: 35px;
+	left: 270px;
+}
+.leadersLabel {
+	position: absolute;
+	top: 35px;
+	left: 290px;
+}
+.letters {
+	position: absolute;
+	top: 55px;
+	left: 270px;
+}
+.lettersLabel {
+	position: absolute;
+	top: 55px;
+	left: 290px;
+}
+/*-----features---*/
+#features {
+	list-style-type: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.features {
+	position: absolute;
+	top: 10px;
+	left: 530px;
+}
+.featuresLabel {
+	position: absolute;
+	top: 10px;
+	left: 550px;
+	font-weight: bold;
+}
+.artsEntertainment {
+	position: absolute;
+	top: 35px;
+	left: 535px;
+}
+.artsEntertainmentLabel {
+	position: absolute;
+	top: 35px;
+	left: 555px;
+}
+.featureArticles {
+	position: absolute;
+	top: 55px;
+	left: 535px;
+}
+.featureArticlesLabel {
+	position: absolute;
+	top: 55px;
+	left: 555px;
+}
+
+.poems {
+	position: absolute;
+	top: 75px;
+	left: 535px;
+}
+.poemsLabel {
+	position: absolute;
+	top: 75px;
+	left: 555px;
+}
+.sport {
+	position: absolute;
+	top: 95px;
+	left: 535px;
+}
+.sportLabel {
+	position: absolute;
+	top: 95px;
+	left: 555px;
+}
+.weather {
+	position: absolute;
+	top: 115px;
+	left: 535px;
+}
+.weatherLabel {
+	position: absolute;
+	top: 115px;
+	left: 555px;
+}
+/*---picture gallery---*/
+#pictureGallery {
+	list-style-type: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.pictureGallery {
+	position: absolute;
+	top: 10px;
+	left: 775px;;
+}
+.pictureGalleryLabel {
+	position: absolute;
+	top: 10px;
+	left: 795px;
+	font-weight: bold;
+}
+.picturesAssoc {
+	position: absolute;
+	top: 35px;
+	left: 775px;
+}
+/* Line Two Limiters */
+
+/*---news---*/
+#news {
+	list-style-type: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.news {
+	position: absolute;
+	top: 130px;
+	left: 40px;
+}
+.newsLabel {
+	position: absolute;
+	top: 130px;
+	left: 60px;
+	font-weight: bold;
+}
+.business {
+	position: absolute;
+	top: 155px;
+	left: 45px;
+}
+.businessLabel {
+	position: absolute;
+	top: 155px;
+	left: 65px;
+}
+.contents {
+	position: absolute;
+	top: 175px;
+	left: 45px;
+}
+.contentsLabel {
+	position: absolute;
+	top: 175px;
+	left: 65px;
+}
+.insight {
+	position: absolute;
+	top: 195px;
+	left: 45px;
+}
+.insightLabel {
+	position: absolute;
+	top: 195px;
+	left: 65px;
+}
+.lawCrime {
+	position: absolute;
+	top: 215px;
+	left: 45px;
+}
+.lawCrimeLabel {
+	position: absolute;
+	top: 215px;
+	left: 65px;
+}
+.newsNews {
+	position: absolute;
+	top: 235px;
+	left: 45px;
+}
+.newsNewsLabel {
+	position: absolute;
+	top: 235px;
+	left: 65px;
+}
+
+/*---people---*/
+#people {
+	list-style-type: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.people {
+	position: absolute;
+	top: 130px;
+	left: 265px;
+}
+.peopleLabel {
+	position: absolute;
+	top: 130px;
+	left: 285px;
+	font-weight: bold;
+}
+.births {
+	position: absolute;
+	top: 155px;
+	left: 270px;
+}
+.birthsLabel {
+	position: absolute;
+	top: 155px;
+	left: 290px;
+}
+.courtSoc {
+	position: absolute;
+	top: 175px;
+	left: 270px;
+}
+.courtSocLabel {
+	position: absolute;
+	top: 175px;
+	left: 290px;
+}
+.obituaries {
+	position: absolute;
+	top: 195px;
+	left: 270px;
+}
+.obituariesLabel {
+	position: absolute;
+	top: 195px;
+	left: 290px;
+}
+
+
+/*---illustration---*/
+#illustration {
+	list-style-type: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.illustration {
+	position: absolute;
+	top: 130px;
+	left: 775px;
+}
+.illustrationLabel {
+	position: absolute;
+	top: 130px;
+	left: 795px;
+	font-weight: bold;
+}
+.rolloverSearchBottom a {
+	color: #ffffff;
+	display:block;
+	width: 102px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/button-bg.png") 0 0 no-repeat;
+	text-decoration: none;
+	border-bottom-color: #666;
+	position: absolute;
+	top: 280px;
+	right: 208px;
+	padding: 4px 0 0 0;
+	text-align: center;
+}
+.rolloverSearchBottom a:hover {
+	background: url("../images/button-bg.png") 0 0 no-repeat;
+	color: #ffcc33;
+}

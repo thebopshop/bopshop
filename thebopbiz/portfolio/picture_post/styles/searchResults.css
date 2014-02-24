@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#leftPanel {
+	width: 189px;
+	height: auto;
+	float: left;
+	margin: 10px 0 0 8px;
+	background: #ffffff;
+}
+#leftPanelTop {
+	width: 180px;
+	height: auto;
+	background: #000000 url(../images/SearchResultsLeftPanel.png) no-repeat;
+	padding-left: 5px;
+}
+#leftPanelTop h1 {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+}
+.withinFieldText {
+	width: 112px;
+	border:1px solid #333333;
+	height:22px;
+}
+.rolloverGo a {
+	display:block;
+	width: 100px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/buttons/GoButton.png") 0 0 no-repeat;
+	text-decoration: none;
+	float: left;
+	border-bottom-color: #666;
+	margin-left: 120px;
+	margin-top: -24px;
+}
+.rolloverGo a:hover {
+	background-position: 0 -24px;
+}
+.rolloverGo a:active {
+	background-position: 0 -24px;
+}
+.limitByJump {
+	border:1px solid #333333;
+	height:22px;
+}
+#leftPanelTop ul {
+	padding-top: 20px;
+}
+#leftPanelTop li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-bottom: 7px;
+	list-style-type: none;
+}
+#leftPanelTop li a {
+	color: #FE811F;
+}
+#leftPanelTop li a:hover {
+	color: #AD2217;
+}
+#leftPanelBottom {
+	width: 189px;
+	height: 19px;
+	background: #000000 url(../images/SearchResultsLeftPanelBottomShadow.png);
+}
+#rightPanel {
+	width: 790px;
+	height: auto;
+	background: #ffffff;
+	float: right;
+	margin: 10px 10px 5px 0;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+#headingBar {
+	height: 50px;
+	width: 100%;
+	background: #000000 url(../images/HeadingBG.png) repeat-x;
+}
+#headingBar h1 {
+	width: 250px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:16px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: left;
+}
+.breadcrumb {
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:12px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: right;
+	padding-right: 10px;
+}
+.breadcrumb a {
+	color: #FE811F;
+}
+.breadcrumb a:hover {
+	color: #AD2217;
+}
+#resultsPageInfo {
+	width: 100%;
+	min-height: 60px;
+	background: #ffffff;
+	padding-top: 5px;
+}
+.resultsInfo {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px 10px;
+	font-size: 12px;
+	float: left;
+	width: 400px;
+	height: auto;
+}
+.resultsInfo a {
+	color: #FE811F;
+}
+.resultsInfo a:hover {
+	color: #AD2217;
+}
+.resultsInfoJumpBox {
+	color: #666666;
+	font-size: 12px;
+	position: relative;
+	float: right;
+	width: 300px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.resultsInfoJumpLabel {
+	color: #666666;
+	position: absolute;
+	top: 7px;
+	right: 215px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.resultsInfoJump {
+	color: #666666;
+	font-size: 12px;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	border:1px solid #333333;
+	height:22px;
+}
+.resultsInfoShowing {
+	width: 100%;
+	position: relative;
+}
+.markAll {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	font-size: 12px;
+}
+.markAllLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 15px;
+	left: 27px;
+	font-size: 12px;
+}
+.prevNext {
+	list-style-type: none;
+	position: absolute;
+	top: 15px;
+	left: 90px;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.prevNext a {
+	color: #FE811F;
+}
+.prevNext a:hover {
+	color: #AD2217;
+}
+.prevNext li {
+	display: inline;
+	padding-left: 10px;
+}
+.resultsNumbers {
+	list-style-type: none;
+	position: absolute;
+	top: 15px;
+	left: 385px;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+}
+.resultsNumbers a {
+	color: #FE811F;
+}
+.resultsNumbers a:hover {
+	color: #AD2217;
+}
+.resultsNumbers a.active {
+	color: #ffffff;
+	background: #FE811F;
+	padding: 0 3px;
+}
+.resultsNumbers li {
+	display: inline;
+}
+.goToPageLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position: absolute;
+	top: 15px;
+	left: 520px;
+}
+.goToPageTextarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position: absolute;
+	top: 10px;
+	left: 593px;
+	border:1px solid #333333;
+	height:22px;
+}
+.rolloverGoToPage a {
+	display:block;
+	width: 50px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/buttons/GoButton.png") 0 0 no-repeat;
+	text-decoration: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-bottom-color: #666;
+}
+.rolloverGoToPage a:hover {
+	background-position: 0 -24px;
+}
+.rolloverGoToPage a:active {
+	background-position: 0 -24px;
+}
+.resultsNumbers li {
+	display: inline;
+}
+.resultsListBox {
+	width: auto;
+	height: 130px;
+	background: #ffffff;
+}
+.resultsList {
+	list-style-type: none;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1 px solid #0F0;
+	background: #cccccc;
+	margin-top: 10px;
+	border-top: 1px solid #000000;
+	position: relative;
+}
+.resultsList a {
+	color: #FE811F;
+}
+.resultsList a:hover {
+	color: #AD2217;
+}
+.resultsList a.active {
+	color: #ffffff;
+	background: #FE811F;
+	padding: 0 3px;
+}
+.resultsList li {
+	display: inline;
+}
+.resultsList .markItem {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+.resultsList .markLabel {
+	position: absolute;
+	left: 27px;
+	top: 5px;
+}
+.resultsList .thumbnail {
+	position: absolute;
+	left: 65px;
+	top: 5px;
+}
+.resultsList .multiPage {
+	position: absolute;
+	left: 220px;
+	top: 5px;
+}
+.resultsList .articleTitle {
+	position: absolute;
+	left: 250px;
+	top: 5px;
+	width: 400px;
+	font-weight: bold;
+}
+.resultsList .description {
+	position: absolute;
+	left: 250px;
+	top: 50px;
+	width: 400px;
+}
+.resultsList .listLinks {
+	position: absolute;
+	left: 250px;
+	top: 110px;
+}
+.resultsList .illustration {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+.resultsList .articleType {
+	position: absolute;
+	right: 10px;
+	top: 50px;
+}
+#backToTop {
+	height: auto;
+	width: 100%;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #000000;
+}
+#backToTop a {
+	color: #FE811F;
+}
+#backToTop a:hover {
+	color: #AD2217;
+}

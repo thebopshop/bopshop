@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+#aboutContainer {
+	position: relative;
+	background:url(../images/about-bg.png);
+	height: 700px;
+	border-top: 1px solid #cccccc;
+}
+#aboutCopy {
+	position: absolute;
+	left: 10px;
+	width: 450px;
+	padding-top: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 2;
+}

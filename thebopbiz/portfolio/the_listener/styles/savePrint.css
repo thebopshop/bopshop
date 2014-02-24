@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #669B9B;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #D2EDF6;
+}
+
+#savePrintContainer {
+	width: 700px;
+	height: 350px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: #000000 url(../images/save-print-background.png);
+	background-repeat: repeat-x;
+	color: #ffffff;
+	position: relative;
+}
+
+.savePrintHeading {
+	width: 150px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	position: absolute;
+	top: 25px;
+	left: 5px;
+}
+.selectFormat {
+	width: 430px;
+	position: absolute;
+	top: 3px;
+	left: 260px;
+	font-size:14px;
+}
+
+.pdf1 {
+	position: absolute;
+	top: 70px;
+	left: 5px;
+}
+.pdf1Label {
+	position: absolute;
+	top: 70px;
+	left: 25px;
+	width: 300px;
+}
+.pdf2 {
+	position: absolute;
+	top: 90px;
+	left: 5px;
+}
+.pdf2Label {
+	position: absolute;
+	top: 90px;
+	left: 25px;
+	width: 300px;
+}
+.pdf4 {
+	position: absolute;
+	top: 110px;
+	left: 5px;
+}
+.pdf4Label {
+	position: absolute;
+	top: 110px;
+	left: 25px;
+	width: 300px;
+}
+.viewPrint {
+	position: absolute;
+	top: 110px;
+	left: 5px;
+}
+.viewPrintLabel {
+	position: absolute;
+	top: 130px;
+	left: 25px;
+	width: 500px;
+}
+
+.enterImage {
+	position: absolute;
+	top: 160px;
+	left: 265px;
+	width: 260px;
+	height: 22px; 
+	border: 1px solid #000000;
+}
+.enterImageLabel {
+	position: absolute;
+	top: 165px;
+	left: 5px;
+	font-weight: bold;
+}
+.note {
+	position: absolute;
+	top: 220px;
+	left: 5px;
+	width: 650px;
+}
+.savePrintCancel {
+	position: absolute;
+	top: 310px;
+	left: 5px;
+	font-weight: bold;
+	color:#000000;
+}

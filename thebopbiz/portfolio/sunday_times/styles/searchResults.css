@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contentContainer {
+	background-repeat: repeat-x;
+	padding-top: 20px;
+	border-top: 1px solid #cccccc;
+}
+#leftPanel {
+	width: 180px;
+	height: auto;
+	float: left;
+	margin: 10px 0 0 10px;
+	background: url(../images/search-results-left-navigation-bg.png);
+	background-repeat:no-repeat;
+	padding-bottom: 25px;
+	position: relative;
+	border: 1px solid #000000;
+}
+.searchWithin {
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	position: absolute;
+	top: 10px;
+	left: 5px;
+}
+.withinFieldText {
+	width: 112px;
+	border:1px solid #000000;
+	height:22px;
+	position: absolute;
+	top: 40px;
+	left: 5px;
+}
+.rolloverGo a {
+	color: #ffffff;
+	display:block;
+	width: 50px;
+	height: 18px;
+	font: bold 13px sans-serif;
+	background: url("../images/button-bg.png") 0 0 no-repeat;
+	text-decoration: none;
+	float: left;
+	border-bottom-color: #666;
+	position: absolute;
+	top: 40px;
+	right: 5px;
+	border: 1px solid #ffffff;
+	padding-top: 4px;
+	text-align: center;
+}
+.rolloverGo a:hover {
+	color: #ffcc33;
+}
+.limitBy {
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	position: absolute;
+	top: 100px;
+	left: 5px;
+}
+.limitByJump {
+	border:1px solid #333333;
+	height:22px;
+	position: absolute;
+	top: 130px;
+	left: 5px;
+}
+.withinList {
+	margin-top: 180px;
+	padding-left: 5px;
+}
+.withinList li {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	padding-bottom: 7px;
+	list-style-type: none;
+}
+
+
+#rightPanel {
+	width: 785px;
+	height: auto;
+	background: #ffffff;
+	float: right;
+	margin: 10px 10px 5px 0;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+#headingBar {
+	height: 50px;
+	width: 100%;
+	background: url(../images/heading-bg.png);
+	background-repeat: no-repeat;
+	border-top: 1px solid #000000;
+	position: relative;
+}
+#headingBar h1 {
+	width: 250px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:16px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: left;
+}
+.bookmarkIcon a {
+	width: 25px;
+	height: 50px;
+	background: url("../images/bookmark-icon.gif");
+	background-repeat:no-repeat;
+	position: absolute;
+	left: 382px;
+	top: 0px;
+}
+.breadcrumb {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:12px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: right;
+	padding-right: 10px;
+}
+#resultsPageInfo {
+	width: 100%;
+	min-height: 60px;
+	background: #ffffff;
+	padding-top: 5px;
+}
+.resultsInfo {
+	font-family: Tahoma, Geneva, sans-serif;
+	padding: 5px 10px;
+	font-size: 12px;
+	float: left;
+	width: 400px;
+	height: auto;
+}
+.resultsInfoJumpBox {
+	color: #000000;
+	font-size: 12px;
+	position: relative;
+	float: right;
+	width: 300px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.resultsInfoJumpLabel {
+	color: #000000;
+	position: absolute;
+	top: 7px;
+	right: 200px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.resultsInfoJump {
+	color: #000000;
+	font-size: 12px;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	border:1px solid #000000;
+	height:22px;
+}
+.resultsInfoShowing {
+	width: 100%;
+	position: relative;
+}
+.markAll {
+	font-family: Tahoma, Geneva, sans-serif;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	font-size: 12px;
+}
+.markAllLabel {
+	font-family: Tahoma, Geneva, sans-serif;
+	position: absolute;
+	top: 15px;
+	left: 27px;
+	font-size: 12px;
+}
+.showing {
+	list-style-type: none;
+	position: absolute;
+	top: 0px;
+	left: 305px;
+	width: auto;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.resultsNumbers {
+	list-style-type: none;
+	position: absolute;
+	top: 15px;
+	left: 275px;
+	width: auto;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.resultsNumbers a.active {
+	color: #ffffff;
+	background: #666666;
+	padding: 0 3px;
+}
+.resultsNumbers li {
+	display: inline;
+}
+.goToPageLabel {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	position: absolute;
+	top: 15px;
+	left: 595px;
+}
+.goToPageTextarea {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	position: absolute;
+	top: 10px;
+	left: 670px;
+	border:1px solid #000000;
+	height:22px;
+	width: 50px;
+}
+.rolloverGoToPage a {
+	color: #ffffff;
+	display:block;
+	width: 50px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/button-bg.png") 0 0 no-repeat;
+	text-decoration: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-bottom-color: #666;
+	padding-top: 4px;
+	text-align: center;
+}
+.rolloverGoToPage a:hover {
+	color: #ffcc33;
+}
+.resultsNumbers li {
+	display: inline;
+}
+.resultsListBox {
+	width: auto;
+	height: 130px;
+	background: #ffffff;
+}
+.resultsList {
+	list-style-type: none;
+	width: auto;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	border: 1 px solid #0F0;
+	background: #cccccc;
+	margin-top: 10px;
+	border-top: 1px solid #000000;
+	position: relative;
+}
+
+.resultsList a.active {
+	color: #ffffff;
+	background: #2d4563;
+	padding: 0 3px;
+}
+.resultsList li {
+	display: inline;
+}
+.resultsList .markItem {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+.resultsList .markLabel {
+	position: absolute;
+	left: 27px;
+	top: 5px;
+}
+.resultsList .thumbnail {
+	position: absolute;
+	left: 65px;
+	top: 5px;
+}
+.resultsList .multiPage {
+	position: absolute;
+	left: 220px;
+	top: 5px;
+}
+.resultsList .articleTitle {
+	position: absolute;
+	left: 250px;
+	top: 5px;
+	width: 400px;
+	font-weight: bold;
+}
+.resultsList .description {
+	position: absolute;
+	left: 250px;
+	top: 50px;
+	width: 400px;
+}
+.resultsList .listLinks {
+	position: absolute;
+	left: 250px;
+	top: 110px;
+}
+.resultsList .illustration {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+.resultsList .articleType {
+	position: absolute;
+	right: 10px;
+	top: 50px;
+}
+#backToTop {
+	height: auto;
+	width: 100%;
+	text-align:center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #000000;
+}
+

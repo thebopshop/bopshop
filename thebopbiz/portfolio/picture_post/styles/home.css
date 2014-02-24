@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+/*standard selectors*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color:#999999;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #FE811F;
+}
+a:active {
+	text-decoration: none;
+}
+a {
+	outline: 0;
+}
+/*main content*/
+.orangeOnWhite:link {
+	color: #FE811F;
+	text-decoration: none;
+	line-height: 20px;
+}
+.orangeOnWhite:visited {
+	text-decoration: none;
+	line-height: 20px;
+}
+.orangeOnWhite:hover {
+	text-decoration: none;
+	color: #AD2217;
+	line-height: 20px;
+}
+.orangeOnWhite:active {
+	text-decoration: none;
+}
+#contentContainer {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+}
+#gallery {
+	width: 1000px;
+	height: 270px;
+	background-image: url(../images/ImageViewerBG.png);
+	background-repeat: no-repeat;
+	border-bottom-color: #FFF;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	float:left;
+}
+#aboutPicturePostHeading {
+	width: 527px;
+	height: 50px;
+	background-image: url(../images/HeadingBG.png);
+	background-repeat: repeat-x;
+	float: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #FFF;
+	text-indent: 10px;
+}
+#searchTheArchiveHeading {
+	width: 472px;
+	height: 50px;
+	background-image: url(../images/HeadingBG.png);
+	background-repeat: repeat-x;
+	border-left-color: #FFF;
+	border-left-style: solid;
+	border-left-width: 1px;
+	float: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #FFF;
+	text-indent: 10px;
+}
+#aboutPicturePostContent {
+	width: 443px;
+	height: auto;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: 20px;
+	padding-right: 42px;
+	padding-bottom: 10px;
+	padding-left: 42px;
+}
+#verticalDivider {
+	width: 1px;
+	height: 262px;
+	float: left;
+	background-image: url(../images/lowerSectionDivider.png);
+}
+#searchTheArchiveContent {
+	width: 472px;
+	height: 262px;
+	float: left;
+}
+#basicSearchField {
+	height: 28px;
+	width: 334px;
+	line-height: 32px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4px;
+	background-repeat:repeat-x;
+	border-bottom-color: #FFF;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.searchRed a {
+	display:block;
+	width: 100px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	text-decoration: none;
+	float: left;
+	border-bottom-color: #666;
+	background-image: url(../images/buttons/SearchButtonRed.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.searchRed a:hover {
+	background-position: 0 -24px;
+}
+.searchRed a:active {
+	background-position: 0 -24px;
+}
+.basicSearchCopy {
+	width: 336px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+#basicSearchLimiters {
+	width: 336px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	text-align: right;
+}
+.jumpMenu {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+}
+.clear {
+	clear:both;
+}

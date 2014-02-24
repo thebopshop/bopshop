@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mlaRadio {
+	position: absolute;
+	top: 85px;
+	left: 5px;
+}
+.mlaLabel {
+	position: absolute;
+	top: 89px;
+	left: 25px;
+}
+
+.saveCancel {
+	position: absolute;
+	top: 125px;
+	left: 5px;
+}
+.export {
+	position: absolute;
+	top: 165px;
+	left: 5px;
+	font-weight: bold;
+}
+.endNote {
+	position: absolute;
+	top: 195px;
+	left: 5px;
+}
+.endNoteLabel {
+	position: absolute;
+	top: 199px;
+	left: 25px;
+}
+.proCite {
+	position: absolute;
+	top: 215px;
+	left: 5px;
+}
+.proCiteLabel {
+	position: absolute;
+	top: 219px;
+	left: 25px;
+}
+.referenceManager {
+	position: absolute;
+	top: 235px;
+	left: 5px;
+}
+.referenceManagerLabel {
+	position: absolute;
+	top: 239px;
+	left: 25px;
+}
+.refWorks {
+	position: absolute;
+	top: 255px;
+	left: 5px;
+}
+.refWorksLabel {
+	position: absolute;
+	top: 259px;
+	left: 25px;
+}
+.exportCancel {
+	position: absolute;
+	top: 295px;
+	left: 5px;
+}
+#noteField {
+	padding: 5px 10px 5px 5px;
+}
+#citationList {
+	position: relative;
+	width: 700px;
+}
+#citationList ul {
+	list-style-type: none;
+	display: inline;
+}
+.numberHeading {
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	width: 40px;
+	height: 25px;
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-top: 7px;
+}
+.titleHeading {
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	width: 540px;
+	height: 25px;
+	position: absolute;
+	top: 5px;
+	left: 45px;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-left: 5px;
+}
+.categoryHeading {
+	width: 105px;
+	height: 25px;
+	position: absolute;
+	top: 5px;
+	left: 590px;
+	font-weight: bold;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	padding-top: 7px;
+	padding-left: 5px;
+}
+.resultsList {
+	list-style-type: none;
+	width: auto;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	position: relative;
+}
+.citationListNumber {
+	position: absolute;
+	top: 60px;
+	left: 5px;
+}
+.citationTitle {
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	width: 540px;
+}
+.citationTitle a:hover {
+	color:  #666666;
+}
+.articleType {
+	position: absolute;
+	top: 60px;
+	left: 595px;
+	width: 90px;
+}
+.description {
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	width: 540px;
+}
+.listLinks {
+	position: absolute;
+	top: 135px;
+	left: 50px;
+	width: 100px;
+}
+.listLinks a:hover {
+	color:  #666666;
+}

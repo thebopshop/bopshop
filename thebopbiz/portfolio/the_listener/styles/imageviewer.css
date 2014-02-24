@@ -1,0 +1,115 @@
+@charset "utf-8";
+#gallery {
+	width: 998px;
+	height: 250px;
+	background-color: #000000;
+	background-image: url(../images/image-viewer-background.png);
+	background-repeat: repeat-x;
+	border-bottom-color: #FFF;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	float:left;
+}
+
+#gallery img {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFF;
+}
+#gallery_nav {
+	float: left;
+	width: 552px;
+	height: 270px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#gallery_output {
+	float: left;
+	width: 445px;
+	height: auto;
+	overflow: hidden;
+}
+#gallery_output img {
+	display: block;
+	margin: 20px auto 0 auto;
+}
+#gallery li {
+	list-style-type:none;
+}
+#topSpacer {
+	height: 20px;
+	width: 300px;
+}
+#thumbText {
+	float:left;
+	height: auto;
+	width: 420px;
+}
+.thumbContainer {
+	width: 97px;
+	height: 64px;
+	text-align: right;
+	margin-right: 30px;
+	margin-bottom: 5px;
+	margin-left: 40px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.pic_img a {
+	float:right;
+}
+.resultList {
+	padding:0 0 7px;
+}
+.resultList ul li {
+	list-style:none;
+	float:left;
+	margin:0 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.resultList ul li.docImg {
+	width:auto;
+	overflow:hidden;
+}
+.resultList ul li.resultInfo {
+	width:320px;
+	position:relative;
+	z-index:99;
+}
+.resultList ul li.resultInfo p {
+	margin-top:7px;
+}
+.resultList ul li.docbg {
+	margin-left:0;
+	margin-right:5px;
+}
+
+
+.resultInfo a {
+	color: #D2EDF6;
+	text-decoration: none;
+}
+
+.resultInfo a:hover {
+	color: #669B9B;
+	text-decoration: none;
+}
+

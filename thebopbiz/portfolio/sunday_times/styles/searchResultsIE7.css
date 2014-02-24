@@ -1,0 +1,16 @@
+.resultsInfoJumpLabel {
+	right: 210px;
+}
+
+.markAllLabel {
+	top: 19px;
+	left: 32px;
+}
+
+.resultsList .markLabel {
+	top: 8px;
+	left: 32px;
+}
+#backToTop {
+	margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contentContainer {
+margin-top: -2px;
+padding-top: 30px;
+}
+
+.icons {
+margin-left:350px;
+}
+
+#headingBar {
+	margin-top: 0px;
+}
+.removeAll {
+	
+	top: 35px;
+	
+}
+
+#backToTop {
+	padding-bottom: 5px;
+	margin-top: 20px;
+}

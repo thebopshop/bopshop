@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contentContainer {
+	background: url(../images/navigation-shadow.png);
+	background-repeat:repeat-x;
+	padding-top: 20px;
+}
+#headingBar {
+	height: 50px;
+	width: 100%;
+	background:#669B9B;
+}
+#headingBar h1 {
+	width: 250px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size:16px;
+	font-weight: bold;
+	line-spacing: 50px;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: left;
+}
+.icons {
+	width: 200px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.icons li {
+	list-style-type: none;
+	display: inline;
+	padding-right: 5px;
+}
+.breadcrumb {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size:12px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: right;
+	padding-right: 10px;
+	margin-top: -53px;
+}
+.breadcrumb a {
+	color: #D2EDF6;
+}
+.breadcrumb a:hover {
+	color: #ffffff;
+}
+#pageDisplayInfo {
+	width: 100%;
+	min-height: 60px;
+	background: #ffffff;
+	padding-top: 5px;
+}
+#pageDisplayInfoLeft {
+	width: 500px;
+	height: auto;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 3px 0 5px 10px;
+	border-right: 1px solid #000000;
+}
+#pageDisplayInfoLeft li {
+	display: inline;
+}
+.pageHyperlinks {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.pageHyperlinks a {
+	color: #00234b;
+}
+.pageHyperlinks a:hover {
+	color: #669B9B;
+}
+
+.pageHyperlinks li {
+	display: inline;
+}
+.prevNext {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.prevNext a {
+	color: #00234b;
+}
+.prevNext a:hover {
+	color: #669B9B;
+}
+.prevNext li {
+	display: inline;
+	padding-right: 5px;
+}
+#pageDisplayInfoRight {
+	width: 480px;
+	height: auto;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position: relative;
+}
+.findLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 18px;
+	left: 30px;
+	font-size: 12px;
+}
+.findTextarea {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 15px;
+	left: 70px;
+	height: 22px;
+	border:1px solid #000000;
+}
+.withinLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 18px;
+	left: 237px;
+	font-size: 12px;
+}
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+.withinLabel {
+ left: 230px;
+}
+}
+.withinJumpMenu {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 15px;
+	left: 280px;
+	border:1px solid #000000;
+	height:24px;
+}
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+.withinJumpMenu {
+ left: 272px;
+}
+}
+.rolloverSearchWithin a {
+	display:block;
+	width: 102px;
+	height: 24px;
+	color: #D2EDF6;
+	font: bold 13px sans-serif;
+	background: url("../images/buttons/button-green-background.png") 0 0 no-repeat;
+	text-decoration: none;
+	position: absolute;
+	top: 15px;
+	right: 39px;
+	padding-top: 4px;
+	text-align: center;
+}
+.rolloverSearchWithin a:hover {
+	background: url("../images/buttons/button-black-background.png") 0 0 no-repeat;
+	color: #669B9B;
+}
+.rolloverSearchWithin a:active {
+	background-position: 0 -24px;
+}
+.fuzzySearch {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 50px;
+	left: 105px;
+	font-size: 12px;
+	font-weight: bold;
+}
+/*.fuzzySearch a {
+	color: #00234b;
+}*/
+.fuzzySearch a:hover {
+	color: #00234b;
+}
+.fuzzyHelp {
+	position: absolute;
+	top: 45px;
+	left: 200px;
+}
+.fuzzyLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 53px;
+	right: 115px;
+	font-size: 12px;
+}
+.fuzzyJump {
+	position: absolute;
+	top: 50px;
+	right: 40px;
+	border:1px solid #000000;
+	height:22px;
+}
+#pageNavigation {
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position: relative;
+	margin-top: 3px;
+}
+#pageNavigation li {
+	display: inline;
+}
+.previousArrow {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+.imageLabel {
+	position: absolute;
+	top: 15px;
+	left: 32px;
+	font-weight: bold;
+}
+.imageNumber {
+	position: absolute;
+	top: 11px;
+	left: 80px;
+	height: 22px;
+	width: 50px;
+	border:1px solid #000000;
+}
+.ofLabel {
+	position: absolute;
+	top: 15px;
+	left: 147px;
+	font-weight: bold;
+}
+.rolloverGo a {
+	color: #D2EDF6;
+	display:block;
+	width: 50px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/buttons/button-green-background.png") 0 0 no-repeat;
+	text-decoration: none;
+	padding: 4px 0 0 0;
+	text-align: center;
+	position: absolute;
+	top: 11px;
+	left: 186px;
+}
+.rolloverGo a:hover {
+	background: url("../images/buttons/button-black-background.png") 0 0 no-repeat;
+	color: #669B9B;
+}
+.rolloverGo a:active {
+	background-position: 0 -24px;
+}
+.nextArrow {
+	position: absolute;
+	top: 15px;
+	left: 246px;
+}
+.helpBrowsing {
+	position: absolute;
+	top: 10px;
+	left: 276px;
+}
+.markItem {
+	position: absolute;
+	top: 17px;
+	left: 320px;
+}
+.markItemLabel {
+	position: absolute;
+	top: 16px;
+	left: 340px;
+}
+.enlarge {
+	position: absolute;
+	top: 16px;
+	left: 383px;
+	font-weight: bold;
+}
+.enlargeImage {
+	position: absolute;
+	top: 15px;
+	left: 470px;
+}
+#imageViewer {
+	margin: 10px;
+	float: left;
+	width: 500px;
+}
+#articleList {
+	width: 458px;
+	padding: 10px;
+	float: right;
+}
+#articleList h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#articleList li {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: 5px;
+}
+#copyrightInfo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 10px;
+	padding-bottom: 30px;
+}
+

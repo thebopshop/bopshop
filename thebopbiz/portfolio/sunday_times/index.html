@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The Sunday Times Digital Archive  | Home</title>
+<link href="styles/style.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="styles/home.css" type="text/css" rel="stylesheet" media="screen"/>
+<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="styles/homeIE7.css" />
+<![endif]-->
+<script type="text/javascript" src="js/placeholder.js"></script>
+<!--script to control gallery rotator-->
+<script type="text/javascript">	
+		$(document).ready(function() {
+			$("#gallery_output img").not(":first").hide();
+
+			$("#gallery a").click(function() {
+				if ( $("#" + this.rel).is(":hidden") ) {
+					$("#gallery_output img").slideUp();
+					$("#" + this.rel).slideDown();
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+<!---HEADER STARTS-->
+<div id="header">
+  <div id="headerTop">
+    <ul class="topLinks">
+      <li><a href="#">Not signed in? LOG IN</a></li>
+      <li><a href="#">Change databases</a></li>
+      <li><a href="#">dev1_bncn</a></li>
+      <li><a href="#">Return to library</a></li>
+      <li><a href="#">LOG OUT</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+    <div id="galeLogoLink"><a href="http://www.cengage.co.uk"><img src="images/cengage-logo.png" alt="Visit the Gale website" width="124" height="32" /></a></div>
+  </div>
+  <div id="bannerHolder">
+    <div class="bannerText"> Digital Archive 1822-2006</div>
+    <div id="brandingScript"></div>
+  </div>
+</div>
+<!--HEADER ENDS-->
+<!--NAVIGATION STARTS-->
+<div id="navBar">
+  <!--<div id="navWrapper">-->
+  <ul class="navigation">
+    <li><a href="Solutions.html">Home</a> </li>
+    <li><a href="Support.html">Advanced Search</a> </li>
+    <li> <a href="AboutUs.html">Browse by Date</a></li>
+    <li><a href="Contact.html">Search History</a> </li>
+    <li><a href="Contact.html">Marked List</a> </li>
+  </ul>
+  <!--<input name="field" type="text" class="textInputTopSearch" size="20" placeholder="Basic Search"/>
+  <div class="rollover"><a href="#">SEARCH</a></div>-->
+  <div class="clear"></div>
+  <!--</div>-->
+</div>
+<!--NAVIGATION ENDS-->
+<!--MAIN CONTAINER START-->
+<div id="contentContainer">
+  <div id="searchTheArchiveContent">
+    <input name="field" type="text" class="textInput" size="40" />
+    <div class="searchButton"><a href="#">SEARCH</a></div>
+    <input class="entireDoc" name="entireDoc" type="radio" value="" />
+    <label class="entireDocLabel">Entire Document &#40;Every Word&#41;</label>
+    <input class="keyword" name="keyowrd" type="radio" value="" />
+    <label class="keywordLabel">Keyword &#40;Article title and citation data&#41;</label>
+    <div class="limitResultsCopy">Limit results by publication date(s):</div>
+    <div id="basicSearchLimiters">
+      <select class="jumpMenuAll" name="All" id="All">
+        <option>All</option>
+        <option>Before</option>
+        <option>On</option>
+        <option>After</option>
+        <option>Between</option>
+      </select>
+      &nbsp;
+      <select class="jumpMenuDate" name="Date" id="Date">
+        <option selected="selected">Date &nbsp;</option>
+        <option>01</option>
+        <option>02</option>
+        <option>03</option>
+        <option>04</option>
+        <option>05</option>
+        <option>06</option>
+        <option>07</option>
+        <option>08</option>
+        <option>09</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+      </select>
+      &nbsp;
+      <select class="jumpMenuMonth" name="Month" id="Month">
+        <option selected="selected">Month</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+      </select>
+      &nbsp;
+      <select class="jumpMenuYear" name="Year" id="Year">
+        <option>Year &nbsp;</option>
+      </select>
+      <p>&nbsp;</p>
+      <select class="jumpMenuDate2" name="Date" id="Date2">
+        <option selected="selected">Date &nbsp;</option>
+        <option>01</option>
+        <option>02</option>
+        <option>03</option>
+        <option>04</option>
+        <option>05</option>
+        <option>06</option>
+        <option>07</option>
+        <option>08</option>
+        <option>09</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+      </select>
+      &nbsp;
+      <select class="jumpMenuMonth2" name="Month" id="Month2">
+        <option selected="selected">Month</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+      </select>
+      &nbsp;
+      <select class="jumpMenuYear2" name="Year" id="Year2">
+        <option>Year &nbsp;</option>
+      </select>
+    </div>
+    <div class="basicSearchCopy">For more detailed options try <a href="#"><strong>Advanced Search</strong></a>
+      <p>&nbsp;</p>
+      Try <a href="#"><strong>Gale News Vault</strong></a> to cross-search The Times with other historical newspapers</div>
+  </div>
+  <div id="newspapers"></div>
+  <div class="clear"></div>
+</div>
+<!--MAIN CONTAINER ENDS-->
+<!--FOOTER STARTS-->
+<div id="footer">
+  <div id="footerCopyright">
+    <p>© Copyright 2011 Cengage Learning</p>
+  </div>
+  <div id="aboutArchive"><a href="#">ABOUT THIS ARCHIVE</a></div>
+  <div class="footerLinks"><a href="#">Contact us</a></div>
+  <div class="footerLinks"><a href="#">Copyright</a></div>
+  <div class="footerLinks"><a href="#">Terms of use</a></div>
+  <div class="footerLinks"><a href="#">Privacy policy</a></div>
+</div>
+<!--/FOOTER ENDS-->
+</body>
+</html>

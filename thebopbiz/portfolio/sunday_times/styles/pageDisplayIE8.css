@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.rolloverSearchWithin a {
+	right: 32px;	
+}
+
+.fuzzySearch {
+	left: 92px;	
+}
+
+.fuzzyHelp {
+	left: 187px;
+}
+
+.fuzzyLabel {	
+	right: 105px;	
+}
+.fuzzyJump {	
+	right: 30px;	
+}

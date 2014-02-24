@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*main content*/
+
+#searchTheArchiveContent {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	width: 998px;
+	height: 262px;
+	background: url(../images/long-line.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	position: relative;
+	border-top: 1px solid #cccccc;
+}
+.searchButton a {
+	color: #ffffff;
+	display:block;
+	width: 102px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	text-decoration: none;
+	border-bottom-color: #666;
+	background-image: url(../images/button-bg.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	position: absolute;
+	top: 65px;
+	right: 270px;
+	padding: 4px 0 0 0;
+	text-align: center;
+}
+.searchButton a:hover {
+	color: #ffcc33;
+}
+.basicSearchCopy {
+	width: 336px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+#basicSearchLimiters {
+	width: 336px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	text-align: right;
+}
+.textInput {
+	position: absolute;
+	top: 65px;
+	left: 270px;
+	height: 22px;
+	width: 350px;
+	border: 1px solid #000000;
+}
+.entireDoc {
+	position: absolute;
+	top: 100px;
+	left: 270px;
+}
+.entireDocLabel {
+	position: absolute;
+	top: 100px;
+	left: 290px;
+}
+.keyword {
+	position: absolute;
+	top: 100px;
+	left: 490px;
+}
+.keywordLabel {
+	position: absolute;
+	top: 100px;
+	right: 270px;
+}
+.limitResultsCopy {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	position: absolute;
+	top: 125px;
+	left: 270px;
+}
+
+.jumpMenuAll {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 155px;
+	left:270px;
+}
+.jumpMenuDate {
+	height: 22px;
+	width: 70px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 155px;
+	left: 350px;
+}
+.jumpMenuMonth {
+	height: 22px;
+	width: 90px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 155px;
+	left: 430px;
+}
+.jumpMenuYear {
+	height: 22px;
+	width: 70px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 155px;
+	left: 530px;
+}
+.jumpMenuDate2 {
+	height: 22px;
+	width: 70px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 185px;
+	left: 350px;
+}
+.jumpMenuMonth2 {
+	height: 22px;
+	width: 90px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 185px;
+	left: 430px;
+}
+.jumpMenuYear2 {
+	height: 22px;
+	width: 70px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 185px;
+	left: 530px;
+}
+.basicSearchCopy {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	position: absolute;
+	top: 215px;
+	left: 270px;
+}
+#newspapers {
+	height: 300px;
+	width: 998px;
+	background: url(../images/home-bg.png);
+}

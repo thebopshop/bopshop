@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+#contentContainer {
+	padding-bottom: 20px;
+}
+
+#browseContributorTop {
+	background: #000000 url(../images/BrowseByDateBG.png) top right no-repeat;
+	width: 1000px;
+	height: auto;
+	min-height: 165px;
+	overflow: visible;
+	margin-top: 33px;
+	padding-bottom: 10px;
+	*margin-top: -1px;
+	
+	
+}
+
+.headingBar {
+	width: 250px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:16px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: left;
+}
+.breadcrumb {
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:12px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: right;
+	padding-right: 10px;
+}
+.breadcrumb a {
+	color: #FE811F;
+}
+.breadcrumb a:hover {
+	color: #AD2217;
+}
+
+.typeYearLabel {
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	top: 30px;
+	left: 250px;
+}
+.typeYearText {
+	position: absolute;
+	top: 50px;
+	left: 250px;
+	height: 22px;
+	width: 195px;
+	border: 1px solid #333333;
+}
+
+.rolloverSearch a {
+background:url("../images/buttons/SearchButtonRed.png") no-repeat scroll 0 0 transparent;
+border-bottom-color:#666666;
+display:block;
+font:bold 13px sans-serif;
+height:24px;
+position:absolute;
+right:247px;
+text-decoration:none;
+top:50px;
+width:100px;
+}
+
+.rolloverSearch a:hover {
+	background-position: 0 -24px;
+}
+.rolloverSearch a:active {
+	background-position: 0 -24px;
+}
+
+.browseThumbs {
+	width: 800px;
+	height: auto;
+	margin-left: 85px;
+	list-style-type: none;
+	margin-top: 20px;
+	
+}
+
+.browseThumbs ul {	
+	position: relative;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	height: 150px;
+}
+.browseThumbsOne {
+	background: url(../images/ThumbBG.png) repeat-x top left;
+	border: 1px solid #000000;
+	height: 150px;
+	width: 120px;	
+	padding-top: 5px;	
+	display: inline;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	
+}
+.coverThumbsOne {
+	position: absolute;
+	top: 30px;
+	left: 15px;
+}
+
+.browseThumbsTwo {
+	background: url(../images/ThumbBG.png) repeat-x top left;
+	border: 1px solid #000000;
+	height: 150px;
+	width: 120px;	
+	padding-top: 5px;	
+	display: inline;
+	position: absolute;
+	top: 5px;
+	left: 140px;
+	
+}
+.coverThumbsTwo {
+	position: absolute;
+	top: 30px;
+	left: 15px;
+}
+
+
+.browseThumbsThree {
+	background: url(../images/ThumbBG.png) repeat-x top left;
+	border: 1px solid #000000;
+	height: 150px;
+	width: 120px;	
+	padding-top: 5px;	
+	display: inline;
+	position: absolute;
+	top: 5px;
+	left: 270px;
+	
+}
+.coverThumbsThree {
+	position: absolute;
+	top: 30px;
+	left: 15px;
+}
+
+.browseThumbsFour {
+	background: url(../images/ThumbBG.png) repeat-x top left;
+	border: 1px solid #000000;
+	height: 150px;
+	width: 120px;	
+	padding-top: 5px;	
+	display: inline;
+	position: absolute;
+	top: 5px;
+	left: 400px;
+	
+}
+.coverThumbsFour {
+	position: absolute;
+	top: 30px;
+	left: 15px;
+}
+
+
+.browseThumbsFive {
+	background: url(../images/ThumbBG.png) repeat-x top left;
+	border: 1px solid #000000;
+	height: 150px;
+	width: 120px;	
+	padding-top: 5px;	
+	display: inline;
+	position: absolute;
+	top: 5px;
+	left: 530px;
+	
+}
+.coverThumbsFive {
+	position: absolute;
+	top: 30px;
+	left: 15px;
+}
+
+
+
+
+#browseContributorSearch  {
+	position: relative;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	margin-top: 10px;
+	*margin-top: 27px;
+}
+
+
+#browseDateBackTop {
+	width: 1000px;
+	height: auto;
+	border-top: 1px solid #000000;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	padding: 10px 0 0 0;
+	margin-top: 40px;	
+	text-align: center;
+}
+
+#browseDateBackTop a {
+	color: #FE811F;
+}
+
+#browseDateBackTop a:hover {
+	color: #AD2217;
+}	

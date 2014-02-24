@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The Sunday Times Digital Archive  | About</title>
+<link href="styles/style.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="styles/about.css" type="text/css" rel="stylesheet" media="screen"/>
+<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="styles/homeIE7.css" />
+<![endif]-->
+<script type="text/javascript" src="js/placeholder.js"></script>
+<!--script to control gallery rotator-->
+<script type="text/javascript">	
+		$(document).ready(function() {
+			$("#gallery_output img").not(":first").hide();
+
+			$("#gallery a").click(function() {
+				if ( $("#" + this.rel).is(":hidden") ) {
+					$("#gallery_output img").slideUp();
+					$("#" + this.rel).slideDown();
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+<!---HEADER STARTS-->
+<div id="header">
+  <div id="headerTop">
+    <ul class="topLinks">
+      <li><a href="#">Not signed in? LOG IN</a></li>
+      <li><a href="#">Change databases</a></li>
+      <li><a href="#">dev1_bncn</a></li>
+      <li><a href="#">Return to library</a></li>
+      <li><a href="#">LOG OUT</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+    <div id="galeLogoLink"><a href="http://www.cengage.co.uk"><img src="images/cengage-logo.png" alt="Visit the Gale website" width="124" height="32" /></a></div>
+  </div>
+  <div id="bannerHolder">
+    <div class="bannerText"> Digital Archive 1822-2006</div>
+    <div id="brandingScript"></div>
+  </div>
+</div>
+<!--HEADER ENDS-->
+<!--NAVIGATION STARTS-->
+<div id="navBar">
+  <!--<div id="navWrapper">-->
+  <ul class="navigation">
+    <li><a href="Solutions.html">Home</a> </li>
+    <li><a href="Support.html">Advanced Search</a> </li>
+    <li> <a href="AboutUs.html">Browse by Date</a></li>
+    <li><a href="Contact.html">Search History</a> </li>
+    <li><a href="Contact.html">Marked List</a> </li>
+  </ul>
+  <input name="field" type="text" class="textInputTopSearch" size="20" placeholder="Basic Search"/>
+  <div class="rollover"><a href="#">SEARCH</a></div>
+  <div class="clear"></div>
+  <!--</div>-->
+</div>
+<!--NAVIGATION ENDS-->
+<!--MAIN CONTAINER START-->
+<div id="contentContainer">
+<div id="aboutContainer">
+<div id="aboutCopy">
+  <p><strong>About This Archive    </strong></p><br/>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac turpis ligula,
+    nec ullamorper nulla.  Donec non enim ut urna pretium aliquet. Mauris eu nisi
+    lorem. Nullam semper augue vitae quam elementum lacinia. Quisque at odio
+    sed massa ultrices accumsan. Sed enim orci, congue sed lobortis ut,
+    pellentesque eu enim. Sed aliquet odo at dim pelentesque aliquam. Aliquam
+    accumsan ullamcorper ultrices. Pellentesque vel nulla felis, id commodo est.
+    Vivamus et neque mi, vel euismod sem. Phasellus euismod magna dapibus
+    turpis gravida egestas. Fusce leo quam, volutpat sed tristique eget, tempor
+    vitae justo.</p><br/><p>
+    
+    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+    Curae; Duis lobortis tellus eget leo venenatis vel ultrices nulla luctus. In hac
+    habitasse platea dictumst. Cras hendrerit eros eget eros convallis ullamcorper.
+    Etiam nunc arcu, temor ac cursus nec, placerat ac arcu. Sed venenatis lacinia
+    odio id mattis. Mauris risus tortor, tempor ac luctus sit amet, ultricies ut tellus.
+    Suspendisse luctus nunc eget odioadipiscing non viverra ligula varius. Donec
+    ultrices condimentum consectetur. Praesent tincidunt, velit eu feugiat
+    consequat, turpis libero sagittis odio, nec accumsan elit urna eu magna. Cum
+    sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
+    <br/><p>
+    
+    Sed interdum nisl quis libero lacinia eu dictum ipsum ultrices. Sed urna arcu,
+    tincidunt pellentesque dapibus ac, semper vel metus. Nulla pellentesque urna
+    eget risus tempor consectetur. Nullam sed lacus non mi lacinia adipiscing sed
+    eget neque. Ut non felis lectus, non adipiscing risus. Donec interdum tempor
+    quam in condimentum. Nulla facilisi. Integer at mi in turpis ultricies vestibulum.
+    Suspendisse eu commodo leo. Proin id magna eros, at eleifend dui.</p>
+</div>
+</div>
+</div>
+<!--MAIN CONTAINER ENDS-->
+<!--FOOTER STARTS-->
+<div id="footer">
+  <div id="footerCopyright">
+    <p>© Copyright 2011 Cengage Learning</p>
+  </div>
+  <div id="aboutArchive"><a href="#">ABOUT THIS ARCHIVE</a></div>
+  <div class="footerLinks"><a href="#">Contact us</a></div>
+  <div class="footerLinks"><a href="#">Copyright</a></div>
+  <div class="footerLinks"><a href="#">Terms of use</a></div>
+  <div class="footerLinks"><a href="#">Privacy policy</a></div>
+</div>
+<!--/FOOTER ENDS-->
+</body>
+</html>

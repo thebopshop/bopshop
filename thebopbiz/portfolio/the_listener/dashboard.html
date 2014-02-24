@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The Listener Historical Archive | Dashboard</title>
+<link href="styles/style.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="styles/dashboard.css" type="text/css" rel="stylesheet" media="screen"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/zindexfix.js"></script>
+<script type="text/javascript" src="js/placeholder.js"></script>
+<script type="text/javascript" src="js/ddaccordion.js">
+
+/***********************************************
+* Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+</script>
+<script type="text/javascript">
+
+
+ddaccordion.init({
+	headerclass: "expandable", //Shared CSS class name of headers group that are expandable
+	contentclass: "categoryitems", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [1], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: true, //Should contents open by default be animated into view?
+	persiststate: false, //persist state of opened contents within browser session?
+	toggleclass: ["", "openheader"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+</script>
+</head>
+<body>
+<!--HEADER STARTS-->
+<div id="header">
+  <div id="headerTop">
+    <ul class="topLinks">
+      <li><a href="#">Not signed in? LOG IN</a></li>
+      <li><a href="#">Change databases</a></li>
+      <li><a href="#">dev1_bncn</a></li>
+      <li><a href="#">Return to library</a></li>
+      <li><a href="#">LOG OUT</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+    <div id="galeLogoLink"><a href="http://www.cengage.co.uk"><img src="images/gale-logo-link.png" alt="Visit the Gale website" width="124" height="32" /></a></div>
+  </div>
+  <div id="bannerHolder">
+    <div id="brandingScript"></div>
+  </div>
+</div>
+<!--HEADER ENDS-->
+<!--NAVIGATION STARTS-->
+<div id="navBar">
+  <!--<div id="navWrapper">-->
+  <div id="navigation">
+    <ul>
+        <li><a href="index.html">HOME</a> </li>
+        <li><a href="advancedSearch.html">ADVANCED SEARCH</a> </li>
+        <li> <a href="#">BROWSE ▼</a>
+          <div id="ddContainer">
+            <ul id="ddc1">
+              <li><a href="browseByDate.html">BROWSE BY DATE</a></li>
+              <li><a href="browseContributor.html">BROWSE CONTRIBUTOR</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="searchHistory.html">SEARCH HISTORY</a> </li>
+        <li><a href="markedList.html">MARKED LIST</a> </li>
+        
+      </ul>
+  </div>
+  <input name="field" type="text" class="textInputTopSearch" size="20" placeholder="Basic Search"/>
+  <div class="rollover"><a href="#">SEARCH</a></div>
+  <div class="clear"></div>
+  <!--</div>-->
+</div>
+<!--NAVIGATION ENDS-->
+
+<!--MAIN CONTAINER STARTS-->
+
+
+<div id="contentContainer">
+
+
+  <!--LEFT COLUMN STARTS-->
+  
+  
+  <div id="leftColumn">
+  
+  
+    <!--ACCORDION STARTS-->
+    
+    
+    <div id="accordionContainer">
+      <div class="arrowlistmenu">
+        <h3 class="menuheader" style="cursor: default"><a href="#">DASHBOARD</a></h3>
+        <h3 class="menuheader expandable">MARKED ITEMS <img src="images/drop-down.png" alt="" width="14" height="8" /></h3>
+        <ul class="categoryitems">
+          <li><a href="##">Default folder</a></li>
+          <li><a href="###">Create a new folder</a></li>
+        </ul>
+        <h3 class="menuheader" style="cursor: default"><a href="####">SEARCH LISTS</a></h3>
+        <h3 class="menuheader" style="cursor: default"><a href="#####">NOTEPAD</a></h3>
+        <h3 class="menuheader" style="cursor: default"><a href="######">ACCOUNT PREFERENCES</a></h3>
+      </div>
+      <div id="shadowTopRight"></div>
+      <div class="clear"></div>
+      <div id="shadowBottom"></div>
+    </div>
+    
+    
+    <!--ACCORDION ENDS-->
+    
+    
+  </div>
+  
+  
+  <!--LEFT COLUMN ENDS-->
+  
+  
+  <!--RIGHT COLUMN TOP STARTS-->
+  
+  
+  <div id="rightColumn">
+  
+  
+    <!--DASHBOARD STARTS-->
+    
+    
+    <!--MARKED ITEMS SECTION STARTS-->
+    
+    
+    <div class="dashboardBox">MARKED ITEMS
+      <div class="viewAll"><a href="#######">View All >></a></div>
+      <div class="clear"></div>
+      <div class="dashboardSubHeading">Saved lists:</div>
+      <div class="dashboardList">
+        <ul style="list-style: none; line-height: 24px;">
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="dashboardLowerLink" style="font-size: 12px"><a href="#" class="orangeOnWhite">1 More Lists >></a></div>
+    </div>
+    
+    
+    <!--MARKED ITEMS SECTION ENDS-->
+    
+    
+    <!--SEARCH LIST SECTION STARTS-->
+    
+    
+    <div class="dashboardBox">SEARCH LIST
+      <div class="viewAll"><a href="########">View All >></a></div>
+      <div class="clear"></div>
+      <div class="dashboardSubHeading">Searches:</div>
+      <div class="dashboardList">
+        <ul style="list-style: none; line-height: 24px;">
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+          <li><a href="#" class="dashboardUL">Lorum ipsum dolor sit amet >></a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="dashboardLowerLink" style="font-size: 12px"><a href="#" class="orangeOnWhite">2 More Searches >></a></div>
+      <div class="clear"></div>
+    </div>
+    
+    
+    <!--SEARCH LIST SECTION ENDS-->
+    
+    
+    <!--RIGHT COLUMN ENDS-->
+    
+    
+  </div>
+  
+  
+  <!--LOWER RIGHT COLUMN STARTS-->
+  
+  
+  <div id="lowerRightColumn">
+  
+  
+    <!--USER DETAILS SECTION STARTS-->
+    
+    
+    <div class="dashboardBox2">ACCOUNT PREFERENCES
+      <div class="viewAll"><a href="#########">View All >></a></div>
+      <div class="clear"></div>
+      <div class="accountPrefDetails">E-mail ID:<span style="padding-left: 40px;">seth.cayley@cengage.com</span></div>
+      <div class="accountPrefDetails">Password:<span style="padding-left: 35px;">********</span></div>
+      <div class="clear"></div>
+      <div class="dashboardLowerLink" style="font-size: 12px"><a href="#" class="orangeOnWhite">Modify >></a></div>
+      <div class="clear"></div>
+    </div>
+    
+    
+    <!--USER DETAILS SECTION ENDS-->
+    
+    
+  </div>
+  
+  
+  <!--LOWER RIGHT COLUMN ENDS-->
+  
+  
+  <!--DASHBOARD ENDS-->
+  
+  
+  <div class="clear"></div>
+</div>
+
+
+<!--MAIN CONTAINER ENDS-->
+
+
+<div class="clear"></div>
+
+
+<!--FOOTER STARTS-->
+<div id="footer">
+  <div id="footerCopyright">
+    <p>© Copyright 2010 Cengage Learning</p>
+    <p> © BBC logo1996; BBC &amp; THE LISTENER are trademarks of the British Broadcasting Corporation and are used under licence.</p>
+  </div>
+  <div class="footerLinks"><a href="#">Contact us</a></div>
+  <div class="footerLinks"><a href="#">Copyright</a></div>
+  <div class="footerLinks"><a href="#">Terms of use</a></div>
+  <div class="footerLinks"><a href="#">Privacy policy</a></div>
+</div>
+<!--/FOOTER ENDS-->
+
+
+</body>
+</html>

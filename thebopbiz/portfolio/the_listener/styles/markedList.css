@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contentContainer {
+	padding-top: 45px;
+	padding-bottom: 10px;
+	border: none;
+	background: #ffffff url(../images/navigation-shadow.png);
+	background-repeat:repeat-x;
+	width: 998px;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+#markedPanel {
+	width: 790px;
+	height: auto;
+	background: #ffffff;
+	margin: 10px 10px 0 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 10px;
+}
+#headingBar {
+	height: 50px;
+	width: 100%;
+	background: #669B9B;
+	margin-top: 5px;
+	border-top: 1px solid #000000;
+}
+#headingBar h1 {
+	width: 250px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size:16px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: left;
+}
+.icons {
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	width:110px;
+}
+.icons li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+}
+.breadcrumb {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size:12px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: right;
+	padding-right: 10px;
+	margin-top: -53px;
+}
+.breadcrumb a {
+	color: #D2EDF6;
+}
+.breadcrumb a:hover {
+	color: #ffffff;
+}
+#markedPageInfo {
+	width: 100%;
+	background: #ffffff;
+	padding-top: 5px;
+	position: relative;
+}
+.markedInfo {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	width: 400px;
+	height: auto;
+}
+/*.markedInfo a {
+	color: #FE811F;
+}
+.markedInfo a:hover {
+	color: #AD2217;
+}
+*/
+.removeAll {
+	position: absolute;
+	top: 30px;
+	right: 10px;
+}
+.removeAll a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.removeAll a:hover {
+	color: #00234b;
+}
+.markedListBox {
+	width: auto;
+	height: 130px;
+	background: #ffffff;
+}
+.markedList {
+	list-style-type: none;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1 px solid #0F0;
+	background: #cccccc;
+	margin-top: 10px;
+	border-top: 1px solid #000000;
+	position: relative;
+}
+.markedList a:hover {
+	color: #00234b;
+}
+.markedList li {
+	display: inline;
+}
+.markedList .markItem {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+.markedList .markLabel {
+	position: absolute;
+	left: 27px;
+	top: 5px;
+}
+.markedList .thumbnail {
+	position: absolute;
+	left: 20px;
+	top: 5px;
+}
+.markedList .multiPage {
+	position: absolute;
+	left: 200px;
+	top: 5px;
+}
+.markedList .articleTitle {
+	position: absolute;
+	left: 230px;
+	top: 5px;
+	width: 400px;
+	font-weight: bold;
+}
+.markedList .description {
+	position: absolute;
+	left: 230px;
+	top: 50px;
+	width: 400px;
+}
+.markedList .listLinks {
+	position: absolute;
+	left: 230px;
+	top: 110px;
+}
+.markedList .illustration {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+.markedList .articleType {
+	position: absolute;
+	right: 10px;
+	top: 50px;
+}
+.markedList .remove {
+	position: absolute;
+	right: 10px;
+	top: 110px;
+	font-weight: bold;
+}
+.markedList .remove a {
+	text-decoration: underline;
+}
+#backToTop {
+	height: auto;
+	width: 100%;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom: 6px;
+	border-top: 1px solid #000000;
+	margin-top: 10px;
+}
+#backToTop a:hover {
+	color: #00234b;
+}
+#footer {
+	width: 990px;
+}
+#footer {
+	border: none;
+}

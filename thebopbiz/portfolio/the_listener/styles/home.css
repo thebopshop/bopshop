@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+/*standard selectors*/
+
+/*main content*/
+
+a:hover {
+	color: #00234b;
+}
+
+#aboutTheArchiveHeading {
+	width: 499px;
+	height: 50px;
+	background-image: url(../images/about-listener-background.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #D2EDF6;
+	text-indent: 10px;
+	float: left;
+}
+
+
+#aboutTheArchiveContent {
+	width: 430px;
+	height: 222px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 20px 10px;
+	/*border-left: 1px solid #000000;*/	
+}
+
+#searchTheArchiveHeading {
+	width: 498px;
+	height: 50px;
+	background-image: url(../images/search-archive-background.png);
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #D2EDF6;
+	text-indent: 10px;
+}
+
+#searchTheArchiveContent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 499px;
+	height: 262px;
+	margin-left: -1px;
+	background: url(../images/long-line.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	position: relative;
+	float: right;
+	/*border-right: 1px solid #000000;*/
+}
+
+#basicSearchField {
+	height: 28px;
+	width: 334px;
+	line-height: 32px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4px;
+	background-repeat:repeat-x;
+	border-bottom-color: #FFF;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.searchButton a {
+	color: #D2EDF6;
+	display:block;
+	width: 102px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	text-decoration: none;
+	border-bottom-color: #666;
+	background-image: url(../images/buttons/button-green-background.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	position: absolute;
+	top: 25px;
+	right: 86px;
+	padding: 4px 0 0 0;
+	text-align: center;
+}
+.searchButton a:hover {
+	background: url(../images/buttons/button-black-background.png);
+	background-repeat: no-repeat;
+}
+.searchButton a:active {
+	background-position: 0 -24px;
+}
+
+.basicSearchCopy {
+	width: 336px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+#basicSearchLimiters {
+	width: 336px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	text-align: right;
+}
+
+
+.textInput {
+	position: absolute;
+	top: 25px;
+	left: 88px;
+	height: 20px;
+	width: 210px;
+}
+
+.entireDoc {
+	position: absolute;
+	top: 55px;
+	left: 88px;
+}
+.entireDocLabel {
+	position: absolute;
+	top: 55px;
+	left: 108px;
+}
+
+.keyword {
+	position: absolute;
+	top: 55px;
+	left: 220px;
+}
+.keywordLabel {
+	position: absolute;
+	top: 55px;
+	left: 240px;
+}
+.limitResultsCopy {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	position: absolute;
+	top: 75px;
+	left: 88px;
+}
+
+#basicSearchLimiters {
+	width: 336px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	text-align: right;
+}
+.jumpMenuAll {
+	height: 22px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 110px;
+	left: 88px;
+}
+.jumpMenuDate {
+	height: 22px;
+	width: 70px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 110px;
+	left: 167px;
+}
+.jumpMenuMonth {
+	height: 22px;
+	width: 90px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 110px;
+	left: 244px;
+}
+.jumpMenuYear {
+	height: 22px;
+	width: 70px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 110px;
+	right: 88px;
+}
+.jumpMenuDate2 {
+	height: 22px;
+	width: 70px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 140px;
+	left: 167px;
+}
+.jumpMenuMonth2 {
+	height: 22px;
+	width: 90px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 140px;
+	left: 244px;
+}
+.jumpMenuYear2 {
+	height: 22px;
+	width: 70px;
+	border-color:#333333;
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 140px;
+	right: 88px;
+}
+
+.basicSearchCopy {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	position: absolute;
+	top: 170px;
+	left: 88px;
+}

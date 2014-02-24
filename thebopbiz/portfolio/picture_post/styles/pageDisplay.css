@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#headingBar {
+	height: 50px;
+	width: 100%;
+	background: #000000 url(../images/HeadingBG.png) repeat-x;
+}
+#headingBar h1 {
+	width: 250px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:16px;
+	font-weight: bold;
+	line-spacing: 50px;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: left;
+}
+.icons {
+	width: 200px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.icons li {
+	list-style-type: none;
+	display: inline;
+	padding-right: 5px;
+}
+.breadcrumb {
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #ffffff;
+	font-size:12px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 15px;
+	float: right;
+	padding-right: 10px;
+	margin-top: -53px;
+}
+.breadcrumb a {
+	color: #FE811F;
+}
+.breadcrumb a:hover {
+	color: #AD2217;
+}
+#pageDisplayInfo {
+	width: 100%;
+	min-height: 60px;
+	background: #ffffff;
+	padding-top: 5px;
+}
+#pageDisplayInfoLeft {
+	width: 500px;
+	height: auto;
+	float: left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	padding: 3px 0 5px 10px;
+	border-right: 1px solid #000000;
+}
+#pageDisplayInfoLeft li {
+	display: inline;
+}
+.pageHyperlinks {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.pageHyperlinks a {
+	color: #FE811F;
+}
+.pageHyperlinks a:hover {
+	color: #AD2217;
+}
+.pageHyperlinks li {
+	display: inline;
+}
+.prevNext {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.prevNext a {
+	color: #FE811F;
+}
+.prevNext a:hover {
+	color: #AD2217;
+}
+.prevNext li {
+	display: inline;
+	padding-right: 5px;
+}
+#pageDisplayInfoRight {
+	width: 480px;
+	height: auto;
+	float: right;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	position: relative;
+}
+.findLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 18px;
+	left: 30px;
+	font-size: 12px;
+}
+.findTextarea {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 15px;
+	left: 70px;
+	height: 20px;
+	border:1px solid #333333;
+}
+.withinLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 18px;
+	left: 237px;
+	font-size: 12px;
+}
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+.withinLabel {
+ left: 230px;
+}
+}
+.withinJumpMenu {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 15px;
+	left: 280px;
+	border:1px solid #333333;
+	height:22px;
+}
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+.withinJumpMenu {
+ left: 272px;
+}
+}
+.rolloverSearchWithin a {
+	display:block;
+	width: 100px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/buttons/SearchButtonRed.png") 0 0 no-repeat;
+	text-decoration: none;
+	position: absolute;
+	top: 15px;
+	right: 40px;
+	border-bottom-color: #666;
+}
+.rolloverSearchWithin a:hover {
+	background-position: 0 -24px;
+}
+.rolloverSearchWithin a:active {
+	background-position: 0 -24px;
+}
+.fuzzySearch {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 50px;
+	left: 210px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.fuzzySearch a {
+	color: #FE811F;
+}
+.fuzzySearch a:hover {
+	color: #AD2217;
+}
+.fuzzyHelp {
+	position: absolute;
+	top: 45px;
+	left: 295px;
+}
+.fuzzyLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 52px;
+	right: 115px;
+	font-size: 12px;
+}
+.fuzzyJump {
+	position: absolute;
+	top: 50px;
+	right: 40px;
+	border:1px solid #333333;
+	height:22px;
+}
+#pageNavigation {
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	position: relative;
+	margin-top: 3px;
+}
+#pageNavigation li {
+	display: inline;
+}
+.previousArrow {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+.imageLabel {
+	position: absolute;
+	top: 15px;
+	left: 32px;
+	font-weight: bold;
+}
+.imageNumber {
+	position: absolute;
+	top: 11px;
+	left: 80px;
+	height: 20px;
+	width: 50px;
+	border:1px solid #333333;
+}
+.ofLabel {
+	position: absolute;
+	top: 15px;
+	left: 147px;
+	font-weight: bold;
+}
+.rolloverGo a {
+	display:block;
+	width: 100px;
+	height: 24px;
+	font: bold 13px sans-serif;
+	background: url("../images/buttons/GoButton.png") 0 0 no-repeat;
+	text-decoration: none;
+	position: absolute;
+	top: 11px;
+	left: 186px;
+	border-bottom-color: #666;
+}
+.rolloverGo a:hover {
+	background-position: 0 -24px;
+}
+.rolloverGo a:active {
+	background-position: 0 -24px;
+}
+.nextArrow {
+	position: absolute;
+	top: 15px;
+	left: 246px;
+}
+.helpBrowsing {
+	position: absolute;
+	top: 10px;
+	left: 276px;
+}
+.markItem {
+	position: absolute;
+	top: 17px;
+	left: 320px;
+}
+.markItemLabel {
+	position: absolute;
+	top: 16px;
+	left: 340px;
+}
+.enlarge {
+	position: absolute;
+	top: 16px;
+	left: 383px;
+	font-weight: bold;
+}
+.enlargeImage {
+	position: absolute;
+	top: 15px;
+	left: 470px;
+}
+#imageViewer {
+	margin: 10px;
+	float: left;
+	width: 500px;
+}
+#articleList {
+	width: 460px;
+	padding: 10px;
+	float: right;
+}
+#articleList h3 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#articleList li {
+	list-style-type: none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	padding-top: 5px;
+}
+#copyrightInfo {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	padding: 10px;
+	padding-bottom: 30px;
+}
